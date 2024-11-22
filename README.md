@@ -59,10 +59,7 @@ This repository has been set up and maintained by Kaitlyn Wade as part of the Di
 ---
 
 ### Checklist for setting an online repository 
-
-- [ ] Add a [LICENSE](LICENSE.md)
 - [ ] Install [all-contributors](https://allcontributors.org/) bot
-- [ ] .gitignore file (choose from a template)
 - [ ] Issue templates
     - [ ] Optionally Install [Welcome/behavior](https://github.com/behaviorbot/welcome) bot (see The Turing Way [config](https://github.com/alan-turing-institute/the-turing-way/blob/main/.github/config.yml))
 - [ ] Create a directory with files for project management (meetings, reports, proposals)
