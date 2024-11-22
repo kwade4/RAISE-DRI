@@ -1,4 +1,5 @@
-# Template for setting up reproducible projects
+# RAISE-DRI: Research and AI at Scale with Digital Research Infrastructure Resources
+
 <!-- ALL-CONTRIBUTORS-BADGE:START - Do not remove or modify this section -->
 [![All Contributors](https://img.shields.io/github/all-contributors/kwade4/RAISE-DRI?color=ee8449&style=flat-square)](#contributors-)
 <!--
@@ -8,7 +9,17 @@
 
 
 ## About this Repository
+This repository is part of a project funded by the **Digital Research Alliance of Canada** **(the Alliance)** through the [DRI EDIA Champions Pilot Program](https://alliancecan.ca/en/funding-opportunities/dri-edia-champions-pilot-program). This pilot program aims to increase awareness, access, and uptake of the Alliance's Digital Research Infrastructure (DRI) among equity-deserving researchers in Canada. 
 
+This project provides hybrid workshops and asynchronous self-guided tutorials covering a range of topics, including:
+* Introduction to Artificial Intelligence (AI)
+* Introduction to Data Science
+* Fundamentals of Deep Learning
+* Deep Learning (generative AI, LLMs, etc.)
+* Introduction to High-Performance Computing (HPC) and Advanced Computing Resources (ARC)
+* Strategies for Managing and Analyzing Ultra-High-Dimensional Data
+
+These resources are designed to empower researchers with the skills and knowledge to harness the power of the Alliance's DRI resources for scalable and impactful research. 
 
 ## Repo Structure
 
