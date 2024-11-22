@@ -59,10 +59,7 @@ This repository has been set up and maintained by Kaitlyn Wade as part of the Di
 
 ### Checklist for setting an online repository 
 
-- [ ] Add a README file
-- [ ] Add a [CONTRIBUTING](CONTRIBUTING.md) file
 - [ ] Add a [LICENSE](LICENSE.md)
-- [ ] Add a [Code of Conduct](CODE_OF_CONDUCT.md)
 - [ ] Install [all-contributors](https://allcontributors.org/) bot
 - [ ] .gitignore file (choose from a template)
 - [ ] Issue templates
