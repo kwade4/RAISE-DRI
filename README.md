@@ -34,8 +34,6 @@ Inspired by [Cookie Cutter Data Science](https://github.com/drivendata/cookiecut
 │   ├── processed      <- The final, canonical data sets for modeling.
 │   └── raw            <- The original, immutable data dump.
 │
-├── docs               <- A default Sphinx project; see sphinx-doc.org for details
-│
 ├── models             <- Trained and serialized models, model predictions, or model summaries
 │
 ├── notebooks          <- Jupyter notebooks. The naming convention is a number (for ordering),
@@ -45,7 +43,6 @@ Inspired by [Cookie Cutter Data Science](https://github.com/drivendata/cookiecut
 ├── reports            <- Generated analysis as HTML, PDF, LaTeX, etc.
 │   └── figures        <- Generated graphics and figures to be used in reporting
 │
-├── project_management <- Meeting notes and other project planning resources
 │
 ├── src                <- Source code for use in this project.
 │   │
