@@ -1,0 +1,33 @@
+# Configuration for welcome - https://github.com/behaviorbot/welcome
+
+# Configuration for new-issue-welcome - https://github.com/behaviorbot/new-issue-welcome
+
+# Comment to be posted to on first time issues
+newIssueWelcomeComment: >
+  [![Welcome Banner](https://zenodo.org/api/iiif/record:3695300:BannerWelcome.jpg/full/!750,750/0/default.jpg)](https://zenodo.org/record/3695300)
+
+  🎉 Welcome to _RAISE-DRI_! 🎉
+  We're really excited to have your input into the project! 💖
+
+  <br>If you haven't done so already, please make sure you check out our [Contributing Guidelines](https://github.com/kwade4/RAISE-DRI/blob/main/CONTRIBUTING.md) and [Code of Conduct](https://github.com/kwade4/RAISE-DRI/blob/main/CODE_OF_CONDUCT.md).
+  If you need to connect more synchronously with members of _RAISE-DRI_ community, please feel free to chat with us. 
+
+# Configuration for new-pr-welcome - https://github.com/behaviorbot/new-pr-welcome
+
+# Comment to be posted to on PRs from first time contributors in your repository
+newPRWelcomeComment: >
+  [![Thank You Banner](https://zenodo.org/api/iiif/record:3695300:BannerThanks.jpg/full/!750,750/0/default.jpg)](https://zenodo.org/record/3695300)
+
+  💖 Thanks for opening this pull request! 💖
+  The _RAISE-DRI_ community really appreciates your time and effort to contribute to the project.
+  Please make sure you have read our [Contributing Guidelines](https://github.com/kwade4/RAISE-DRI/blob/main/CONTRIBUTING.md) and filled in our pull request template to the best of your ability.
+  If we don't acknowledge this pull request after 7 days, feel free to chat to us about it.
+
+# Configuration for first-pr-merge - https://github.com/behaviorbot/first-pr-merge
+
+# Comment to be posted to on pull requests merged by a first time user
+firstPRMergeComment: >
+  [![Congratulations Banner](https://zenodo.org/api/iiif/record:3695300:BannerCongratulations.jpg/full/!750,750/0/default.jpg)](https://zenodo.org/record/3695300)
+
+  Congrats on merging your first pull request! 🎉
+  Thank you so much for your contribution 🎁
