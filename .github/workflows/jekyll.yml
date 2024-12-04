@@ -18,7 +18,7 @@ jobs:
       with:
         ruby-version: '3.1'
 
-    - name: Navigate to docs and Install dependencies
+    - name: Install dependencies in docs folder
       run: |
         cd docs
         gem install bundler
