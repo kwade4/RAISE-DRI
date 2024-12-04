@@ -71,11 +71,8 @@ This repository has been set up and maintained by Kaitlyn Wade as part of the Di
 
 ### Checklist for setting an online repository 
 - [ ] Install [all-contributors](https://allcontributors.org/) bot
-- [ ] Issue templates
-    - [ ] Optionally Install [Welcome/behavior](https://github.com/behaviorbot/welcome) bot (see The Turing Way [config](https://github.com/alan-turing-institute/the-turing-way/blob/main/.github/config.yml))
 - [ ] Connect repo with Zenodo
 - [ ] Add cff file for citation
-- [ ] Add badges
 
 📫 Contact
 ---
