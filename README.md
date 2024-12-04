@@ -30,6 +30,7 @@ Inspired by [Cookie Cutter Data Science](https://github.com/drivendata/cookiecut
 ├── README.md          <- The top-level README for users of this project.
 ├── CODE_OF_CONDUCT.md <- Guidelines for users and contributors of the project.
 ├── CONTRIBUTING.md    <- Information on how to contribute to the project.
+|
 ├── data
 │   ├── processed      <- The final, canonical data sets for modeling.
 │   └── raw            <- The original, immutable data dump.
