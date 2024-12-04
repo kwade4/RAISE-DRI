@@ -1,4 +1,4 @@
-# Intro to AI 
+# Intro to HPC 
 
 🚧 Coming Soon! 🛠️
 ---
