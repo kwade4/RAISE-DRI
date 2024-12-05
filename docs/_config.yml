@@ -1,2 +1,11 @@
 title: "RAISE-DRI"
 remote_theme: "just-the-docs/just-the-docs"
+
+just_the_docs:
+  navigation:
+    order: front_matter 
+  # logo: ""
+
+baseurl: "/RAISE-DRI"
+url: "https://kwade4.github.io/RAISE-DRI/
+"
