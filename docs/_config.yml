@@ -5,7 +5,3 @@ just_the_docs:
   navigation:
     order: front_matter 
   # logo: ""
-
-baseurl: "/RAISE-DRI"
-url: "https://kwade4.github.io/RAISE-DRI/
-"
