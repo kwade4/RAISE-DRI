@@ -31,20 +31,18 @@ Inspired by [Cookie Cutter Data Science](https://github.com/drivendata/cookiecut
 ├── CODE_OF_CONDUCT.md <- Guidelines for users and contributors of the project.
 ├── CONTRIBUTING.md    <- Information on how to contribute to the project.
 |
+|
+├── docs               <- Code for RAISE-DRI website
+|
+|
 ├── data
 │   ├── processed      <- The final, canonical data sets for modeling.
 │   └── raw            <- The original, immutable data dump.
 │
+|
 ├── models             <- Trained and serialized models, model predictions, or model summaries
 │
-├── notebooks          <- Jupyter notebooks. The naming convention is a number (for ordering),
-│                         the creator's initials, and a short `-` delimited description, e.g.
-│                         `1.0-jqp-initial-data-exploration`.
-│
-├── reports            <- Generated analysis as HTML, PDF, LaTeX, etc.
-│   └── figures        <- Generated graphics and figures to be used in reporting
-│
-│
+|
 ├── src                <- Source code for use in this project.
 │   │
 │   ├── data           <- Scripts to download or generate data
