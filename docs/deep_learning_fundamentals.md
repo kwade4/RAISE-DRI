@@ -1,6 +1,6 @@
 ---
 title: Machine Learning and Deep Learning Fundamentals 
-parent: Aritifical Intelligence 
+parent: Data Science and AI  
 nav_order: 6
 ---
 

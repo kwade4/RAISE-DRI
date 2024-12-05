@@ -1,6 +1,6 @@
 ---
 title: Deep Learning (GenAI, LLMs, and more)
-parent: Aritifical Intelligence 
+parent: Data Science and AI 
 nav_order: 7
 ---
 
