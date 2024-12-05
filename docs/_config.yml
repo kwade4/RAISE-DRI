@@ -2,11 +2,11 @@ title: "RAISE-DRI"
 remote_theme: "just-the-docs/just-the-docs"
 repository: kwade4/RAISE-DRI # for github-metadata
 
-logo: "/assets/images/RAISE-DRI_logo_full.png"
-# just_the_docs:
-#   navigation:
-#     order: front_matter 
-#   # logo: ""
+# logo: "/assets/images/RAISE-DRI_logo_full.png"
+just_the_docs:
+  navigation:
+    order: front_matter 
+  # logo: ""
 favicon_ico: "/assets/images/favicon.ico"
 
 # Aux links for the upper right navigation

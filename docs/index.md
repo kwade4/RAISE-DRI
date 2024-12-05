@@ -1,12 +1,10 @@
 ---
 title: Home
-layout: home
 nav_order: 1
 description: RAISE-DRI- Research and AI at Scale using Digital Research Infrastructure Resources 
 ---
 
-# RAISE-DRI
-
+![RAISE-DRI logo](assets/images/RAISE-DRI_logo_full.png)
 
 ## Welcome
 
