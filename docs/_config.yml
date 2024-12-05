@@ -1,7 +1,75 @@
 title: "RAISE-DRI"
 remote_theme: "just-the-docs/just-the-docs"
+repository: kwade4/RAISE-DRI # for github-metadata
+
 
 just_the_docs:
   navigation:
     order: front_matter 
   # logo: ""
+
+# Aux links for the upper right navigation
+aux_links:
+  "RAISE-DRI on GitHub":
+    - "https://github.com/kwade4/RAISE-DRI"
+
+# Makes Aux links open in a new tab. Default is false
+aux_links_new_tab: false
+
+# Enable or disable the side/mobile menu globally
+# Nav menu can also be selectively enabled or disabled using page variables or the minimal layout
+nav_enabled: true
+
+# Sort order for navigation links
+# nav_sort: case_insensitive # default, equivalent to nil
+nav_sort: case_sensitive # Capital letters sorted before lowercase
+
+# Sort order for navigation links
+# nav_sort: case_insensitive # default, equivalent to nil
+nav_sort: case_sensitive # Capital letters sorted before lowercase
+
+# External navigation links
+nav_external_links:
+  - title: RAISE-DRI on GitHub
+    url: https://github.com/kwade4/RAISE-DRI
+
+# Show navigation error report
+nav_error_report: true # default is false/nil.
+
+liquid:
+  error_mode: strict
+  strict_filters: true
+
+# ---------------------------------------
+# Footer content 
+
+# Back to top link
+back_to_top: true
+back_to_top_text: "Back to top"
+
+last_edit_timestamp: true # show or hide edit time - page must have `last_modified_date` defined in the frontmatter
+last_edit_time_format: "%b %e %Y at %I:%M %p" # uses ruby's time format: https://ruby-doc.org/stdlib-2.7.0/libdoc/time/rdoc/Time.html
+
+# footer_content: 'Copyright &copy; 2024 Kaitlyn Wade. Distributed by an <a href="https://github.com/kwade4/RAISE-DRI/tree/main/LICENSE.md">MIT license.</a>
+footer_content: 'Copyright &copy; 2024 Kaitlyn Wade. Distributed by an <a href="https://github.com/kwade4/RAISE-DRI/tree/main/LICENSE.md">MIT license.</a> <a href="https://www.github.com/just-the-docs/just-the-docs/">This site uses just-the-docs.</a>'
+
+# --------------------------
+# Color scheme currently only supports "dark", "light"/nil (default), or a custom scheme that you define
+color_scheme: nil
+
+callouts_level: quiet # or loud
+callouts:
+  highlight:
+    color: yellow
+  important:
+    title: Important
+    color: blue
+  new:
+    title: New
+    color: green
+  note:
+    title: Note
+    color: purple
+  warning:
+    title: Warning
+    color: red
