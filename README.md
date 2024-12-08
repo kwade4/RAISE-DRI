@@ -48,13 +48,11 @@ Inspired by [Cookie Cutter Data Science](https://github.com/drivendata/cookiecut
 │   ├── data           <- Scripts to download or generate data
 │   │   └── make_dataset.py
 │   │
-│   ├── models         <- Scripts to train models and then use trained models to make
-│   │   │                 predictions
-│   │   ├── predict_model.py
-│   │   └── train_model.py
-│   │
-│   └── visualisation  <- Scripts to create exploratory and results-oriented visualisations
-│       └── visualise.py
+│   └── models         <- Scripts to train models and then use trained models to make
+│       │                 predictions
+│       ├── predict_model.py
+│       └── train_model.py
+│   
 └──
 ```
 
@@ -91,7 +89,9 @@ licensor endorses you or your use and with no additional restrictions.
 
 > This repository uses the template created and maintained by *The Turing Way* team members and shared under CC-BY 4.0 for reuse: https://github.com/alan-turing-institute/reproducible-project-template.
 
-## Contributors ✨
+
+✨ Contributors
+---
 
 ([emoji key](https://allcontributors.org/docs/en/emoji-key)):
 
