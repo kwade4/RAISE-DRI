@@ -2,6 +2,8 @@ title: "RAISE-DRI"
 theme: just-the-docs
 repository: kwade4/RAISE-DRI # for github-metadata
 
+permalink: pretty
+
 defaults:
   - scope:
       path: "docs" # an empty string here means all files in the project
