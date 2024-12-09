@@ -1,5 +1,6 @@
 ---
 title: Case Studies 
+layout: default 
 nav_order: 4
 ---
 

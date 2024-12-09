@@ -1,5 +1,6 @@
 ---
-title: Digital Research Infrastructure 
+title: Digital Research Infrastructure
+layout: default 
 nav_order: 2
 ---
 
