@@ -20,7 +20,7 @@ An overview of the **Digital Research Alliance of Canada** (the Alliance) and ho
 ### [Digital Research Infrastructure (DRI)]({% link dri_intro.md %})
 Learn about the Alliances's **Digital Research Infrastructure**, which provides Canadian reserchers with infrastructure for research data managment (RDM), advanced reseearch computing (ARC), and research software (RS). 
 
-### [Intro to High-Performance Computing (HPC) and Advanced Research Computing (ARC)]({% link hpc_intro.md %})
+### [Intro to High-Performance Computing (HPC) and Advanced Research Computing (ARC)]({% link arc.md %})
 Get familiar with high-performance computing (HPC) and the Advanced Research Computing Resources offered by the Digital Research Alliance of Canada. 
 
 ### [Intro to Data Science]({% link data_science_intro.md %})
