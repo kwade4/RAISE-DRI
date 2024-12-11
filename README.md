@@ -9,9 +9,13 @@
 
 
 ## About this Repository
-This repository is part of a project funded by the **Digital Research Alliance of Canada** **(the Alliance)** through the [DRI EDIA Champions Pilot Program](https://alliancecan.ca/en/funding-opportunities/dri-edia-champions-pilot-program). This pilot program aims to increase awareness, access, and uptake of the Alliance's Digital Research Infrastructure (DRI) among equity-deserving researchers in Canada. 
+Welcome to the RAISE-DRI project repository! 
 
-This project provides hybrid workshops and asynchronous self-guided tutorials covering a range of topics, including:
+<img src="https://github.com/kwade4/RAISE-DRI/blob/main/docs/assets/images/RAISE-DRI_logo_full.png" width="200">
+
+RAISE-DRI (Research and AI at Scale using Digital Research Infrastructure Resources) is an initiative supported by the **Digital Research Alliance of Canada** (the Alliance) through the [DRI EDIA Champions Pilot Program](https://alliancecan.ca/en/funding-opportunities/dri-edia-champions-pilot-program). This project is committed to empowering equity-deserving researchers in Canada with the skills and knowledge needed to leverage the Digital Research Infrastructure (DRI) for scalable and impactful research.  
+
+RAISE-DRI offers hybrid workshops and self-guided tutorials covering a range of topics in artificial intelligence, data science, and high-performance computing, including: 
 * Introduction to Artificial Intelligence (AI)
 * Introduction to Data Science
 * Fundamentals of Deep Learning
@@ -19,7 +23,9 @@ This project provides hybrid workshops and asynchronous self-guided tutorials co
 * Introduction to High-Performance Computing (HPC) and Advanced Computing Resources (ARC)
 * Strategies for Managing and Analyzing Ultra-High-Dimensional Data
 
-These resources are designed to empower researchers with the skills and knowledge to harness the power of the Alliance's DRI resources for scalable and impactful research. 
+These resources are designed to equip researchers with the knowledge and confidence to use the Alliance's DRI ecosystem in their work. 
+
+ 
 
 ## Repo Structure
 
@@ -78,16 +84,15 @@ For any queries or concerns, you can directly reach out to Kaitlyn Wade by email
 ♻️ License
 ---
 
-This work is licensed under the MIT license (code) and Creative Commons Attribution 4.0 International license (for documentation).
-You are free to share and adapt the material for any purpose, even commercially,
-as long as you provide attribution (give appropriate credit, provide a link to the license,
-and indicate if changes were made) in any reasonable manner, but not in any way that suggests the
-licensor endorses you or your use and with no additional restrictions.
+This work is licensed under the MIT license (code) and Creative Commons Attribution 4.0 International license (for documentation). You are free to share and adapt the material for any purpose, even commercially, as long as you provide attribution (give appropriate credit, provide a link to the license, and indicate if changes were made) in any reasonable manner, but not in any way that suggests the licensor endorses you or your use and with no additional restrictions.
 
 🤝 Acknowledgement
 ---
+RAISE-DRI has funding and support from the following organizations:
+* [Digital Research Alliance of Canada's DRI EDIA Champions Pilot Program](https://alliancecan.ca/en/funding-opportunities/dri-edia-champions-pilot-program)
+* [OLS Open Seeds Mentoring and Training Program](https://we-are-ols.org/openseeds/)
 
-> This repository uses the template created and maintained by *The Turing Way* team members and shared under CC-BY 4.0 for reuse: https://github.com/alan-turing-institute/reproducible-project-template.
+This repository uses the template created and maintained by *The Turing Way* team members and shared under CC-BY 4.0 for reuse: https://github.com/alan-turing-institute/reproducible-project-template.
 
 
 ✨ Contributors
