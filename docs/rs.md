@@ -1,8 +1,8 @@
 ---
 title: Research Software  
 layout: default
-parent: Canada's Digital Research Infrastructure 
-nav_order: 6
+parent: What is the DRI? 
+nav_order: 5
 ---
 
 # Research Software 

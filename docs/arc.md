@@ -1,7 +1,7 @@
 ---
 title: Advanced Research Computing 
 layout: default 
-parent: Canada's Digital Research Infrastructure
+parent: What is the DRI?
 nav_order: 3
 ---
 

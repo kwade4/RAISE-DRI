@@ -1,7 +1,7 @@
 ---
 title: Research Data Management   
 layout: default
-parent: Canada's Digital Research Infrastructure 
+parent: What is the DRI? 
 nav_order: 4
 ---
 
