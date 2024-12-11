@@ -1,7 +1,7 @@
 ---
 title: Research Software  
 layout: default
-parent: What is the DRI? 
+parent: What is DRI? 
 nav_order: 5
 ---
 

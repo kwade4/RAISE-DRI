@@ -1,11 +1,11 @@
 ---
-title: What is the DRI?  
+title: What is DRI?  
 layout: default
 parent: Canada's Digital Research Infrastructure 
 nav_order: 2
 ---
 
-# What is the Digital Research Infrastructure (DRI)? 
+# What is Digital Research Infrastructure (DRI)? 
 
 ## Overview 
 The Digital Research Alliance of Canada (the Alliance) empowers researchers at Canadian institutions, with the ultimate goal of positioning Canada as a leader in the global knowledge economy. 
