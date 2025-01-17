@@ -39,13 +39,18 @@ Inspired by [Cookie Cutter Data Science](https://github.com/drivendata/cookiecut
 |
 ├── docs               <- Code for RAISE-DRI website
 |
-├── examples
+├── workshop_examples  <- Practice examples from
 |       |
 │       └──mnist      <- Examples using the "mnist" dataset
 |           ├──mnist_classification.ipynb     <- Jupyter notebook example 
+|           ├──mnist_colab.pdf                <- Instructions for using Google Colab 
+|           ├──mnist_cluster.pdf              <- Instructions for using ARC resources
 |           └──mnist                          <- ARC example
-|               └──README.md        <- Instructions for downloading "mnist" dataset            
-|           
+|               └──README.md                  <- Instructions for downloading "mnist" dataset   
+|               ├──download-dataset.py        <- Download "mnist" data
+|               ├──main.py                    <- Runs classification model
+|               ├──requirements.txt           <- Specifies required packages 
+|               └──submit_job.sh              <- SLURM script for running model on ARC server                  
 └──
 ```
 
