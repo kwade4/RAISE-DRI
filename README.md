@@ -37,28 +37,15 @@ Inspired by [Cookie Cutter Data Science](https://github.com/drivendata/cookiecut
 ├── CODE_OF_CONDUCT.md <- Guidelines for users and contributors of the project.
 ├── CONTRIBUTING.md    <- Information on how to contribute to the project.
 |
-|
 ├── docs               <- Code for RAISE-DRI website
 |
-|
-├── data
-│   ├── processed      <- The final, canonical data sets for modeling.
-│   └── raw            <- The original, immutable data dump.
-│
-|
-├── models             <- Trained and serialized models, model predictions, or model summaries
-│
-|
-├── src                <- Source code for use in this project.
-│   │
-│   ├── data           <- Scripts to download or generate data
-│   │   └── make_dataset.py
-│   │
-│   └── models         <- Scripts to train models and then use trained models to make
-│       │                 predictions
-│       ├── predict_model.py
-│       └── train_model.py
-│   
+├── examples
+|       |
+│       └──mnist      <- Examples using the "mnist" dataset
+|           ├──mnist_classification.ipynb     <- Jupyter notebook example 
+|           └──mnist                          <- ARC example
+|               └──README.md        <- Instructions for downloading "mnist" dataset            
+|           
 └──
 ```
 
