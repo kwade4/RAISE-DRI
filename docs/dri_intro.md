@@ -21,12 +21,12 @@ Canada's DRI integrates **advanced research computing** (ARC), **research data m
 
 Advanced Research Computing (ARC) is a cornerstone of Canada's digital research infrastructure and supports innovation across public and private sectors. It encompasses the tools and technologies reuqires for conducting computational- and data-intenstive research. 
 
-ARC integrates cloud computing, high-speed networks, and robust cybersecurity measures that enable researchers to tackle complex challenges. More than 200 experts at 38 partner insitutions acorss Canada provide essential experrtise and keep ARC accesible to everyone.  
+ARC integrates cloud computing, high-speed networks, and robust cybersecurity measures that enable researchers to tackle complex challenges. More than 200 experts at 38 partner insitutions acorss Canada provide essential expertise and keep ARC accesible to everyone.  
 
-ARC fuels research across a variety of fields, such as: 
+ARC enables research across a variety of fields, such as: 
 * **Health Sciences**: advancing disease treatments and discovery 
 * **Astronomy**: exploring distant planets 
-* **Ecology**: studying sea lice in farmed salmon 
+* **Ecology**: studying weather patterns  
 * **Engineering and AI**: creating models to study protein-drug interactions  
  
 <!-- Include links to sub-pages -->

@@ -21,62 +21,43 @@ Advanced Research Computing (ARC) refers to the use of high-performance computin
 
 
 ### When is ARC Needed? 
-You may require ARC resources if:
-
-✅ Your research problem **takes too long** to compute on a personal computer.
-
-✅ Your dataset is **too large** to process with local storage and memory.
-
+ARC resources may be helpful if:  
+✅ Your research problem **takes too long** to compute on a personal computer.  
+✅ Your dataset is **too large** to process with local storage and memory.  
 ✅ Your simulations, models, or analyses **exceed the computational limits** of your personal computer.
 
 ### How Can ARC Help?
-ARC helps to mitigate these challenges by offering: 
-
-⚡ Increased computational power → Solve problems faster with access to large-scale processors.
-
-🛠️ Expand memory capacity → Handle datasets and simulations that exceed personal system limits.
-
-💾 Enhance data storage → Store and process massive datasets without hardware limitations.
+ARC helps to mitigate these challenges by offering:  
+⚡ **Increased computational power** → Solve problems faster with access to large-scale processors.  
+🛠️ **Higher memory capacity** → Handle datasets and simulations that exceed personal system limits.  
+💾 **Enhanced data storage** → Store and process massive datasets without hardware limitations.
 
 ## Why is ARC Important?
-ARC is essential for solving complex problems that require signiificant **computational power** or **massive datasets**. It plays a key role in: 
+ARC is essential for solving complex problems that require signiificant **computational power** or **massive datasets**. 
 
-✅ **Accelerating Discovery**: Faster processing speeds allow researchers to run simulations, analyze large datasets, and test models efficiently.
-
-✅ **Handling Large-Scale Data** Advanced storage solutions make it possible to manage and process vast amounts of research data.
-
+It plays a key role in:  
+✅ **Accelerating Discovery**: Faster processing speeds allow researchers to run simulations, analyze large datasets, and test models efficiently.  
+✅ **Handling Large-Scale Data** Advanced storage solutions make it possible to manage and process vast amounts of research data.  
 ✅ **Driving Innovation** – ARC is used in both public and private sectors to develop new technologies and advance scientific understanding.
 
 From modelling climate change to exploring the human genome, ARC plays a role in handling time-sensitive and data-intensive reseach challenges. 
 
 ## Key ARC Services  
 
-### 1. High-Performance Computing (HPC) 
-HPC provides **parallel processing** and **supercomputing capabilities** to solve problems faster than a standard computer. This is crucial for fields requiring large-scale simulations, such as physics, engineering, and AI.
-
-### 2. Data Storage and Management 
-ARC offers advanced storage solutions for handling massive datasets and ensures secure and efficient access to research data.
-
-### 3. Cloud Computing and Networking 
-Advancements to cloud computing and high-speed networking infrastructure allow researchers to access ARC resources remotely and collaborate more easily.
-
-### 4. Cybersecuity and Data Protection 
-ARC includes **robust cybersecurity measures** to protect sensitive research data and comply with strict ethical and security standards.
+1. **High-Performance Computing (HPC)**: HPC provides **parallel processing** and **supercomputing capabilities** to solve problems faster than a standard computer. This is crucial for fields requiring large-scale simulations, such as physics, engineering, and AI.
+2. **Data Storage and Management**: ARC offers advanced storage solutions for handling massive datasets and ensures secure and efficient access to research data.
+3. **Cloud Computing and Networking**: Advancements to cloud computing and high-speed networking infrastructure allow researchers to access ARC resources remotely and collaborate more easily.
+4. **Cybersecuity and Data Protection** ARC includes **robust cybersecurity measures** to protect sensitive research data and comply with strict ethical and security standards.
 
 
 ## Who Uses ARC? 
 ARC is used by a wide range of individuals and organizations, spanning academia, industry, and government. 
 
-ARC enables discoveries in fields such as:
-
-🌍 **Climate Science**: Modeling climate change and extreme weather patterns.
-
-🧬 **Genomics & Health**: Analyzing the human genome and developing precision medicine.
-
-🚀 **Aerospace Engineering**: Simulating fluid dynamics for aircraft and space exploration.
-
-🤖 **Artificial Intelligence**: Training large AI models for advanced machine learning applications.
-
+ARC enables discoveries in fields such as:  
+🌍 **Climate Science**: Modeling climate change and extreme weather patterns.  
+🧬 **Genomics & Health**: Analyzing the human genome and developing precision medicine.  
+🚀 **Aerospace Engineering**: Simulating fluid dynamics for aircraft and space exploration.  
+🤖 **Artificial Intelligence**: Training large AI models for advanced machine learning applications.  
 🔬 **Materials Science**: Designing new materials for energy storage, manufacturing, and nanotechnology.
 
 
