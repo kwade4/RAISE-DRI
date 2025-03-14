@@ -15,12 +15,12 @@ Presented on January 9th and January 10th
 # Events    
 
 ## Research and AI at Scale - Part 2 (In-person)
-Register at: https://bit.ly/41DPVyG
+[Register Today!](https://bit.ly/41DPVyG) 
 
 ![March-19](assets/images/March19-insta.png)
 
 
 ## Research and AI at Scale - Part 2 (Virtual)
-Register at: https://bit.ly/4irospH
+[Register Today!](https://bit.ly/4irospH)
 
 ![March-20](assets/images/March20-insta.png)
