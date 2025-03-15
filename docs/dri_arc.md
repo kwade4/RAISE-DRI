@@ -37,8 +37,8 @@ ARC is essential for solving complex problems that require signiificant **comput
 
 It plays a key role in:  
 ✅ **Accelerating Discovery**: Faster processing speeds allow researchers to run simulations, analyze large datasets, and test models efficiently.  
-✅ **Handling Large-Scale Data** Advanced storage solutions make it possible to manage and process vast amounts of research data.  
-✅ **Driving Innovation** – ARC is used in both public and private sectors to develop new technologies and advance scientific understanding.
+✅ **Handling Large-Scale Data**: Advanced storage solutions make it possible to manage and process vast amounts of research data.  
+✅ **Driving Innovation**: ARC is used in both public and private sectors to develop new technologies and advance scientific understanding.
 
 From modelling climate change to exploring the human genome, ARC plays a role in handling time-sensitive and data-intensive reseach challenges. 
 
