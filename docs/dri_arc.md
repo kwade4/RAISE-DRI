@@ -61,4 +61,3 @@ ARC enables discoveries in fields such as:
 🔬 **Materials Science**: Designing new materials for energy storage, manufacturing, and nanotechnology.
 
 
----
