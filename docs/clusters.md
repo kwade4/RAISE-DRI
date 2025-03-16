@@ -17,6 +17,12 @@ Researchers can access the following systems:
 🦭 **[Narval](https://docs.alliancecan.ca/wiki/Narval/en)**:  Montreal's École de technologie supérieure  
 🌊 **[Niagara](https://docs.alliancecan.ca/wiki/Niagara)**: University of Toronto 
 
+Arbutus ☁️ is a cloud-based platform that allows researchers to launch and customize virtual machines to suit their specific computing needs. 
+
+Béluga, Cedar, Narval and Graham are general-purpose HPC clusters. They offer a mix of compute nodes, including high-memory nodes and GPU-accelerated options, and are suitable for a wide range of research applications. 
+
+Niagara is a specialized cluster designed for large-scale parallel computing (more than 1000 jobs). 
+
 <div style="background-color: #eaf3ea; border-left: 5px solid #8FBC8F; padding: 10px; color: black;"> ⚠️ <strong>Important:</strong> Check the current status of ARC resources <a href="https://status.alliancecan.ca/" target="_blank">here</a>. </div>
 
 
@@ -53,6 +59,7 @@ To ensure there’s enough space for everyone, there are quotas and policies in 
 | **Cedar**🌲 | 50 GB & 500K files per user         | 20 TB & 1M files per user         | 1 TB & 500K files per group         | 2 TB & 5000 files per group          |
 | **Graham** 💧 | 50 GB & 500K files per user         | 20 TB & 1M files per user         | 1 TB & 500K files per group         | 2 TB & 5000 files per group          |
 | **Béluga** 🐳 | 50 GB & 500K files per user         | 20 TB & 1M files per user         | 1 TB & 500K files per group         | 1 TB & 500K files per group          |
+| **Narval** 🦭 | 50 GB & 500K files per user         | 20 TB & 1M files per user         | 1 TB & 500K files per group         | 1 TB & 500K files per group          |
 | **Niagara** 🌊| 100 GB per user                     | Up to 25 TB per user (group-based allocation) | By group allocation (RRG or RPP)    | 10 TB per user                       |
 
 
