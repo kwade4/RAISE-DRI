@@ -9,7 +9,7 @@ nav_order: 3
 {:toc}
 
 # Introduction to High-Performance Computing
-{: .no_toc .text-delta }
+{: .no_toc }
 
 
 ## What is HPC and How is it Different from a Personal Computer? 
