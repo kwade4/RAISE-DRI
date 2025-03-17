@@ -40,8 +40,8 @@ The Alliance provides and supports RDM services such as:
 🗃️ **Federated Research Data Repository (FRDR)**: A platform for storing and sharing large datasets  
 🔍 **Lunaris**: A tool for discovering research data  
 📝 **DMP Assistant**: Helps researchers create data   management plans  
-🌌**Borealis**: A national research data repository
-🤝 **Network of Experts**: Connects researchers with RDM specialists
+🌌**Borealis**: A national research data repository  
+🤝 **Network of Experts**: Connects researchers with RDM specialists  
 📚 **Learning & Training**: Provides educational resources on RDM best practices  
 
 
