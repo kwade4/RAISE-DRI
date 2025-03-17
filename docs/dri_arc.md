@@ -59,5 +59,3 @@ ARC enables discoveries in fields such as:
 🚀 **Aerospace Engineering**: Simulating fluid dynamics for aircraft and space exploration.  
 🤖 **Artificial Intelligence**: Training large AI models for advanced machine learning applications.  
 🔬 **Materials Science**: Designing new materials for energy storage, manufacturing, and nanotechnology.
-
-

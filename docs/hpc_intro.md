@@ -20,11 +20,8 @@ An HPC system typically involves multiple **nodes** connected together to form a
 The main types of nodes in an HPC system include:
 
 * **Compute Nodes**: The primary workers, responsible for handling computational tasks.
-
 * **Login Nodes**: Allow users to access the system, submit jobs, and manage files. Heavy computations are not run on login nodes; instead, jobs are submitted to the compute nodes for processing.
-
 * **Storage Nodes**: Manage data storage and provide access to shared file systems, ensuring efficient data management across the cluster.
-
 * **Head Nodes**: A specialized type of login node that coordinates the HPC cluster’s operation, handling job queues, system monitoring, and resource allocation.
 
 ![HPC Overview](assets/images/HPC-overview.png)

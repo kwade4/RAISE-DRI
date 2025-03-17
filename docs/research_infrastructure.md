@@ -4,11 +4,11 @@ layout: default
 nav_order: 2
 ---
 
-Digital Research Alliance of Canada 
----
-
 ![Alliance Logo](assets/images/Alliance_logo.png)
 
+# Canada's Digital Research Infrastructure 
+
+## Digital Research Alliance of Canada 
 
 The **Digital Research Alliance of Canada** (the Alliance) is a government-funded non-profit organization that supports Canadian researchers. 
 
