@@ -6,6 +6,10 @@ nav_order: 5
 ---
 
 # Research Software 
+{: .no_toc }
+
+1. TOC
+{:toc}
 
 ## Why Research Software Matters
 Research software (RS) is a cornerstone of modern scientific discovery. It enables researchers to analyze complex data, simulate experiments, visualize results, and collaborate efficiently. Without reliable software tools, many research projects would be slow, error-prone, or even impossible.

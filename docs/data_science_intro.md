@@ -5,8 +5,10 @@ parent: Data Science and AI
 nav_order: 4
 ---
 
-# Introduction to Data Science
+1. TOC
+{:toc}
 
+# Introduction to Data Science
 Welcome to the world of data sciencce, where raw data transforms into meaningful insights and drive progress. Whether you're new to data science or looking to expand your skills, this guide is designed to introduce you to core concepts, tools, and techniques to help you with your research.  
 
 ## What is Data Science? 

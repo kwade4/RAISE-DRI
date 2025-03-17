@@ -4,6 +4,10 @@ layout: default
 parent: Advanced Research Computing
 nav_order: 2
 ---
+
+1. TOC
+{:toc}
+
 # Services Available through ARC 
 
 Canada’s Advanced Research Computing (ARC) resources feature six national HPC clusters and cloud services. The Alliance offers free computing power, cloud access, and data storage to researchers at Canadian institutions.

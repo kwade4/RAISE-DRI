@@ -6,6 +6,11 @@ nav_order: 2
 ---
 
 # What is Digital Research Infrastructure (DRI)? 
+{: .no_toc }
+
+
+1. TOC
+{:toc}
 
 ## Overview 
 The Digital Research Alliance of Canada (the Alliance) empowers researchers at Canadian institutions, with the ultimate goal of positioning Canada as a leader in the global knowledge economy. 
@@ -18,7 +23,6 @@ Canada's DRI integrates **advanced research computing** (ARC), **research data m
 
 
 ## Advanced Research Computing 
-
 Advanced Research Computing (ARC) is a cornerstone of Canada's digital research infrastructure and supports innovation across public and private sectors. It encompasses the tools and technologies reuqires for conducting computational- and data-intenstive research. 
 
 ARC integrates cloud computing, high-speed networks, and robust cybersecurity measures that enable researchers to tackle complex challenges. More than 200 experts at 38 partner insitutions acorss Canada provide essential expertise and keep ARC accesible to everyone.  

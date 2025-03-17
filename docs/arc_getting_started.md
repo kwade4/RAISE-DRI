@@ -6,6 +6,10 @@ nav_order: 1
 ---
 
 # Getting Started with ARC
+{: .no_toc }
+
+1. TOC
+{:toc}
 
 ## Register with the Compute Canada Database (CCDB)
 To access ARC resources, first register with the [Compute Canada Database (CCDB)](https://ccdb.alliancecan.ca/security/login). This is where you'll manage your account, track usage, and view  resource allocations. 
@@ -33,7 +37,6 @@ PIs must confirm the details of each Group Member’s application via email or t
 </div>
 
 ## Roles and Resources 
-
 Upon registration, you'll receive a unique Compute Canada Identifier (CCI) (e.g., abc-123). Your role (e.g., PI, student, collaborator) determines your access to resources and permissions within the CCDB.
 
 

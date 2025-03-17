@@ -6,6 +6,10 @@ nav_order: 1
 ---
 
 # Advanced Research Computing (ARC)
+{: .no_toc }
+
+1. TOC
+{:toc}
 
 ## Overview 
 Advanced Research Computing (ARC) is a cornerstone of Canada's digital research infrastrutcure and supports innovation across public and private sectors. It provides researchers with access to **high-performance computing**, **advanced data storage**, and **data management tools**, enabling them to tackle complex and data-intensive challenges efficiently. 

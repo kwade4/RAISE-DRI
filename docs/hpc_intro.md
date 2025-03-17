@@ -5,6 +5,9 @@ parent: Advanced Research Computing
 nav_order: 3
 ---
 
+1. TOC
+{:toc}
+
 # Introduction to High-Performance Computing
 In many fields, computing power is a limting factor for research progress. For problems that demand substantial processing power, traditional personal computers simply aren’t equipped to handle the load. This is where High-Performance Computing (HPC) comes into play.
 

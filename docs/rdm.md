@@ -6,6 +6,10 @@ nav_order: 4
 ---
 
 # Research Data Management (RDM)
+{: .no_toc }
+
+1. TOC
+{:toc}
 
 ## What is RDM?
 Research Data Management (RDM) is essential for guiding the entire research lifecycle. From its initial creation to its eventual sharing and long-term preservation, RDM ensures that data is effectively organized, stored, and maintained throughout the research process. It enables researchers to access and use data efficiently, improves the quality of research, and helps drive scientific discovery.

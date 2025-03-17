@@ -8,8 +8,13 @@ nav_order: 1
 ![Alliance Logo](assets/images/Alliance_logo.png)
 
 # What is the Digital Research Alliance of Canada?  
+{: .no_toc }
 
 ## Overview 
+{: .no_toc }
+
+1. TOC
+{:toc}
 
 ### Supporting Canadian Researchers 
 The Digital Research Alliance of Canada plays a key role in supporting researchers at Canadian institutions by providing access to tools through the Digital Research Infrastructure (DRI). Through the DRI ecosystem, the Alliance aims to ensure Canada remains as leader in global research and innovation. 
