@@ -5,10 +5,13 @@ parent: Advanced Research Computing
 nav_order: 4
 ---
 
+# Command Line Essentials 
+{: .no_toc }
+
 1. TOC
 {:toc}
 
-# Introduction to the Command Line 
+## Introduction to the Command Line 
 
 High-performance computing (HPC) systems are controlled through the command line. The command line is a text-based interface that allows users to interact with a computer by typing commands. Unlike graphical user interfaces (GUIs), which rely on icons and windows, the command line provides direct control over the system, making it a powerful tool for managing files, running programs, and automating tasks.
 

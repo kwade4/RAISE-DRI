@@ -5,13 +5,15 @@ parent: Data Science and AI
 nav_order: 4
 ---
 
+# Introduction to Data Science
+{: .no_toc }
+
 1. TOC
 {:toc}
 
-# Introduction to Data Science
-Welcome to the world of data sciencce, where raw data transforms into meaningful insights and drive progress. Whether you're new to data science or looking to expand your skills, this guide is designed to introduce you to core concepts, tools, and techniques to help you with your research.  
-
 ## What is Data Science? 
+Welcome to the world of data science, where raw data transforms into meaningful insights and drive progress. Whether you're new to data science or looking to expand your skills, this guide is designed to introduce you to core concepts, tools, and techniques to help you with your research.  
+
 At its core, data science combines statistics, computer science, and domain knowledge to extract meaning from data.  It involves transforming raw data into valuable knowledge by applying various techniques to uncover patterns, make predictions, and validate assumptions. Data science can be broken down into three main types of analysis: **exploratory**, **confirmatory**, and **predictive**. Each type plays a crucial role in the data science process, helping researchers and analysts make informed decisions, test hypotheses, and forecast future trends.
 
 ### Exploratory Data Science: Understanding Data 
