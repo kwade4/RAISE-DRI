@@ -9,9 +9,12 @@ nav_order: 3
 {:toc}
 
 # Introduction to High-Performance Computing
-In many fields, computing power is a limting factor for research progress. For problems that demand substantial processing power, traditional personal computers simply aren’t equipped to handle the load. This is where High-Performance Computing (HPC) comes into play.
+{: .no_toc .text-delta }
+
 
 ## What is HPC and How is it Different from a Personal Computer? 
+In many fields, computing power is a limting factor for research progress. For problems that demand substantial processing power, traditional personal computers simply aren’t equipped to handle the load. This is where High-Performance Computing (HPC) comes into play. 
+
 HPC refers to the use of specialized computing systems, often referred to as **supercomputers** or **compute clusters**, that work together to process and analyze data at incredibly fast speeds. These systems consist of hundreds, thousands, or even millions of processors working in parallel to perform complex calculations far more efficiently than typical desktop machines.
 
 While personal computers are built for everyday tasks, HPC systems are optimized for large-scale computations, simulations, and data-intensive operations. From simulating molecular interactions and training deep learning models to analyzing vast scientific datasets, HPC provides the computational power necessary to solve problems that would take days, months, or even years on a single machine.

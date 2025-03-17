@@ -10,7 +10,10 @@ permalink: /
 
 ## Welcome
 
-This website serves as a collection of resources and guides related to Data Science, Artificial Intelligence (AI), Deep Learning, High-Performance Computing (HPC), and Strategies for Managing Ultra-High Dimensional Data.  
+RAISE-DRI (Research and AI at Scale using Digital Research Infrastructure Resources) is an initiative supported by the Digital Research Alliance of Canada (the Alliance) through the DRI EDIA Champions Pilot Program. This project is committed to empowering equity-deserving researchers in Canada with the skills and knowledge needed to leverage the Digital Research Infrastructure (DRI) for scalable and impactful research.
+
+RAISE-DRI offers virtual and in-person workshops and self-guided tutorials covering a range of topics in artificial intelligence, data science, and high-performance computing. These resources are designed to give researchers the knowledge and confidence to use the Alliance's DRI ecosystem in their work.
+
 
 ## Topics 
 
