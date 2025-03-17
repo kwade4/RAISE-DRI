@@ -1,5 +1,5 @@
 ---
-title: Available Services 
+title: ARC Clusters 
 layout: default 
 parent: Advanced Research Computing
 nav_order: 2

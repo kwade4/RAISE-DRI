@@ -1,12 +1,13 @@
 ---
 title: Command Line Essentials 
 layout: default 
-nav_order: 3
+parent: Advanced Research Computing
+nav_order: 4
 ---
 
 # Introduction to the Command Line 
 
-High-performance computing (HPC) systems are contorlled through the command line. The command line is a text-based interface that allows users to interact with a computer by typing commands. Unlike graphical user interfaces (GUIs), which rely on icons and windows, the command line provides direct control over the system, making it a powerful tool for managing files, running programs, and automating tasks.
+High-performance computing (HPC) systems are controlled through the command line. The command line is a text-based interface that allows users to interact with a computer by typing commands. Unlike graphical user interfaces (GUIs), which rely on icons and windows, the command line provides direct control over the system, making it a powerful tool for managing files, running programs, and automating tasks.
 
 For new users, the command line may seem intimidating at first, but it offers many advantages, especially in HPC. It enables efficient navigation, file manipulation, and job submission on remote systems that lack a traditional desktop environment. 
 
