@@ -7,6 +7,11 @@ nav_order: 99
 # Common Questions
 
 ## How can I access DRI resources?
+To access ARC resources, first register with the [Compute Canada Database (CCDB)](https://ccdb.alliancecan.ca/security/login). Once your account is approved, you will be able to access DRI resources. 
+
+Find out more: 
+* [Getting Started with ARC]({% link arc_getting_started.md %})
+* The Alliance's [website](https://alliancecan.ca/en/services/advanced-research-computing/account-management/apply-account) 
 
 ## How can I learn more about DRI resources? 
 
