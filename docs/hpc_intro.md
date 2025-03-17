@@ -27,6 +27,8 @@ The main types of nodes in an HPC system include:
 
 * **Head Nodes**: A specialized type of login node that coordinates the HPC cluster’s operation, handling job queues, system monitoring, and resource allocation.
 
+![HPC Overview](assets/images/HPC-overview.png)
+
 ## Jobs and Job Scheduling 
 Instead of running programs interactively like on a personal computer, users submit **jobs** to HPC systems. These jobs can range from simple computational tasks to complex simulations that involve multiple processes running simultaneously across several nodes.
 

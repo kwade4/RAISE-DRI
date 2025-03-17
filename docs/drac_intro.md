@@ -5,6 +5,8 @@ parent: Canada's Digital Research Infrastructure
 nav_order: 1
 ---
 
+![Alliance Logo](assets/images/Alliance_logo.png)
+
 # What is the Digital Research Alliance of Canada?  
 
 ## Overview 
