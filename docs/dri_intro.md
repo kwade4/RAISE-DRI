@@ -17,8 +17,6 @@ Canada's DRI integrates **advanced research computing** (ARC), **research data m
 ![DRI Overview](assets/images/dri.png)
 
 
----
-
 ## Advanced Research Computing 
 
 Advanced Research Computing (ARC) is a cornerstone of Canada's digital research infrastructure and supports innovation across public and private sectors. It encompasses the tools and technologies reuqires for conducting computational- and data-intenstive research. 
@@ -40,7 +38,7 @@ The Alliance provides and supports RDM services such as:
 🗃️ **Federated Research Data Repository (FRDR)**: A platform for storing and sharing large datasets  
 🔍 **Lunaris**: A tool for discovering research data  
 📝 **DMP Assistant**: Helps researchers create data   management plans  
-🌌**Borealis**: A national research data repository  
+🌌 **Borealis**: A national research data repository  
 🤝 **Network of Experts**: Connects researchers with RDM specialists  
 📚 **Learning & Training**: Provides educational resources on RDM best practices  
 
