@@ -1,5 +1,5 @@
 ---
-title: Introduction to the Command Line 
+title: Command Line Essentials 
 layout: default 
 nav_order: 3
 ---

@@ -14,6 +14,8 @@ By funding and advancing Canada's **Digital Research Infrastructure** (DRI), the
 
 Canada's DRI integrates **advanced research computing** (ARC), **research data management** (RDM), and **research software** (RS), and enables impactful research at scale. The DRI ecosystem ensures that Canadian researchers have access to the infrastructure and support they need to advance their work and contribute to innovation, regardless of their discipline or geographical location.
 
+![DRI Overview](assets/images/dri.png)
+
 
 ---
 

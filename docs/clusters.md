@@ -8,6 +8,11 @@ nav_order: 2
 
 Canada’s Advanced Research Computing (ARC) resources feature six national HPC clusters and cloud services. The Alliance offers free computing power, cloud access, and data storage to researchers at Canadian institutions.
 
+The images below showcase the Graham cluster and a close-up of one of its server drawers. These images are courtesy of the [Waterloo Record](https://www.therecord.com/news/waterloo-region/uw-supercomputer-getting-multi-million-dollar-upgrade/article_54d43b2e-de53-5d3a-aadc-f682ac487126.html). 
+
+![Graham](assets/images/graham.png)
+
+
 ## HPC Clusters 
 Researchers can access the following systems:   
 🌿 **[Arbutus](https://docs.alliancecan.ca/wiki/Arbutus)**: University of Victoria   
@@ -23,7 +28,7 @@ Béluga, Cedar, Narval and Graham are general-purpose HPC clusters. They offer a
 
 Niagara is a specialized cluster designed for large-scale parallel computing (more than 1000 jobs). 
 
-<div style="background-color: #eaf3ea; border-left: 5px solid #8FBC8F; padding: 10px; color: black;"> ⚠️ <strong>Important:</strong> Check the current status of ARC resources <a href="https://status.alliancecan.ca/" target="_blank">here</a>. </div>
+<div style="background-color: #eaf3ea; border-left: 5px solid #8FBC8F; padding: 10px; color: black;"> ⚠️ <strong>Important:</strong> Check the current status of ARC resources <a href="https://status.alliancecan.ca/" target="_blank">here</a>. </div>  
 
 
 ## Cloud Computing  

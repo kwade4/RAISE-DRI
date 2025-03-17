@@ -13,3 +13,6 @@ nav_order: 99
 ## How can I use DRI resources in my research? 
 
 ## Where can I learn about funding opportunties? 
+
+## What software packages are available? 
+
