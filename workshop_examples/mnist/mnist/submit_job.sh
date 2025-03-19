@@ -1,9 +1,9 @@
 #!/bin/bash
 #SBATCH --ntasks=1
 #SBATCH --mem=12G      # increase as needed
-#SBATCH --time=00:10:00
+#SBATCH --time=00:5:00
 #SBATCH --gres=gpu:1
-#SBATCH --cpus-per-task=4
+#SBATCH --cpus-per-task=1
 #SBATCH --mail-user=your-email
 #SBATCH --mail-type=ALL
 #SBATCH --account=def-someuser
@@ -16,4 +16,6 @@ pip install --no-index --upgrade pip
  
 pip install --no-index -r ./requirements.txt
 
-python main.py --epochs 5 --save-model
+tar -xf data.tar.gz -C $SLURM_TMPDIR/
+
+python main.py --epochs 5 --save-model --data $SLURM_TMPDIR/data
