@@ -6,7 +6,7 @@ nav_order: 3
 ---
 
 # Introduction to High-Performance Computing
-<!-- {: .no_toc } -->
+{: .no_toc }
 
 1. TOC
 {:toc}

@@ -80,7 +80,7 @@ Cloud services offer researchers customizable virtual machines that enable them 
 ✅ Collaborate with colleagues 
 
 
-## Storage Options 
+## Storage Locations 
 The Alliance provides high-speed temporary and long-term data storage options. As a shared resource, users are expected to manage storage responsibly.
 
 🏠 `\HOME`: The home directory is best for storing source code, small parameter files, and job submission scripts. It has a smaller quota and isn't optimized for reading or writing large files, so it's not ideal for heavy data operations.

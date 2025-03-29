@@ -1,11 +1,11 @@
 ---
-title: Getting Started with ARC
+title: Accessing ARC Resources 
 layout: default 
 parent: Advanced Research Computing
 nav_order: 1
 ---
 
-# Getting Started with ARC
+# Accessing Advanced Research Computing (ARC) Resources 
 {: .no_toc }
 
 1. TOC

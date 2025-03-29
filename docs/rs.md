@@ -61,7 +61,7 @@ The SMP template helps funders, institutions, and researchers:
 * **Evaluate Software Reliability**: Helps researchers asssess the interoperability, flexibility, and extensibility of their software. 
 
 ### Canadian Research Software Repository 
-The Alliance if compiling a [directory](https://research-software-directory.org/organisations/digital-research-alliance-of-canada) of actively supported Canadian research software platforms (RSPs). These platforms are also featured in the [Research Software Directory (RSD)](https://research-software-directory.org/), an international registry for academic research software, that was created by the Netherlands eScience Centre. 
+The Alliance is compiling a [directory](https://research-software-directory.org/organisations/digital-research-alliance-of-canada) of actively supported Canadian research software platforms (RSPs). These platforms are also featured in the [Research Software Directory (RSD)](https://research-software-directory.org/), an international registry for academic research software, that was created by the Netherlands eScience Centre. 
 
 Research software projects that are actively maintained, open-source, and led by Canadian institutions can be submitted for inclusion in this directory.
 
