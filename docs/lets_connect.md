@@ -12,7 +12,9 @@ That's why we're hosting **free public office hours** — a low-pressure space w
 
 Whether you're new to Digital Research Insfrastructure (DRI) resources, troubleshooting your code, or exploring data science and AI, no question is too small — we're happy to help! 😊
 
-<iframe src="https://koalendar.com/e/raise-dri-open-office-hours" width="75%" height="700" style="border: none;"></iframe>
+<!-- <iframe src="https://koalendar.com/e/raise-dri-open-office-hours" width="75%" height="700" style="border: none;"></iframe> -->
+
+<iframe src="https://koalendar.com/e/raise-dri-open-office-hours?embed=true" width="100%" height="800px" frameborder="0"></iframe>
 
 If you have a question, feel free to submit it below. We'll get back to you as soon as we can!
 
