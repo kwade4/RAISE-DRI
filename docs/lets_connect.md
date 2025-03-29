@@ -18,6 +18,6 @@ Whether you're new to Digital Research Insfrastructure (DRI) resources, troubles
 
 If you have a question, feel free to submit it below. We'll get back to you as soon as we can!
 
-<iframe src="https://forms.gle/Va6KLFNWMLPmHq7z5" width="100%" height="600" frameborder="0" marginheight="0" marginwidth="0"></iframe>
+<!-- <iframe src="https://forms.gle/Va6KLFNWMLPmHq7z5" width="100%" height="600" frameborder="0" marginheight="0" marginwidth="0"></iframe> -->
 
-
+<iframe src="https://docs.google.com/forms/d/e/1FAIpQLSeR9je65H1o0Bi9V66eH6_S5zR356MISl8Sx9kpHHHTzOI2IQ/viewform?embedded=true" width="100%" height="687" frameborder="0" marginheight="0" marginwidth="0">Loading…</iframe>
