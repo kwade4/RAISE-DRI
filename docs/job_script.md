@@ -57,14 +57,15 @@ python main.py
 ```
 
 ### Components of a Job Script 
-* **Shebang (`#!`)**  
+1. **Shebang (`#!`)**  
     The **shebang** Specifies that this script should be executed using the Bash shell. 
 
-* **`#SBATCH` Directives**  
+2. **`#SBATCH` Directives**  
     `#SBATCH` directives are special directives used in SLURM job scripts to specify resource requests and job settings. These directives tell the SLURM scheduler how to allocate resources and manage the job. Each `#SBATCH` directive must be placed at the top of the script, before any executable commands: 
     ```console 
     #SBATCH --option=value
-    ```
+    ```  
+      
     | **Directive**                  | **Description** |
     |--------------------------------|----------------|
     | `#SBATCH --account=my_account` | Specifies the account for computing resources. |
@@ -77,15 +78,16 @@ python main.py
     | `#SBATCH --output=job_output.txt` | Redirects standard output (`stdout`) to `job_output.txt`. |
     | `#SBATCH --error=job_error.txt`   | Redirects error messages (`stderr`) to `job_error.txt`. |
 
-* **Loading Required Software**
+
+3. **Loading Required Software**
     ```console
     module load python/3.10 cuda cudnn
     ```
     * `module load`: Loads the necessary software for the job. 
     * `python/3.10` loads Python 3.10 
-    * `cuda` and `cudnn` load GPU acceleration libraries for deep learning. 
+    * `cuda` and `cudnn` load GPU acceleration libraries for deep learning.   
 
-* **Creating a Virtual Environment** 
+4. **Creating a Virtual Environment** 
     ```console 
     virtualenv --no-download $SLURM_TMPDIR/env
     source $SLURM_TMPDIR/env/bin/activate
@@ -93,14 +95,15 @@ python main.py
 
     These lines create a virtual environment in `$SLURM_TMPDIR`, which is a temporary storage directory on the compute node. Compute nodes have very fast read and write speeds, making `$SLURM_TMPDIR` faster than the `HOME` directory. 
     
-    It is also a good idea to extract any data used in your script to `$SLURM_TMPDIR`. 
+    It is also a good idea to extract any data used in your script to `$SLURM_TMPDIR`.  
+
     ```console 
     tar -xf data.tar.gz -C $SLURM_TMPDIR/
     ```
 
-    This command extracts files from the archive `data.tar.gz` to the `$SLURM_TMPDIR`. 
+    This command extracts files from the archive `data.tar.gz` to the `$SLURM_TMPDIR`.     
 
-* **Installing Packages**
+5. **Installing Packages**
     ```console
     pip install --no-index --upgrade pip
     pip install --no-index tensorflow
@@ -108,21 +111,15 @@ python main.py
 
     These lines ensure package installations used pre-built wheels that are optimized for the ARC clusters. 
     * `pip install --no-index --upgrade pip`: Upgrades `pip` without accessing external repositories. 
-    *  `pip install --no-index tensorflow`: Installs Tensorflow using pre- built cluster wheels. 
+    *  `pip install --no-index tensorflow`: Installs Tensorflow using pre- built cluster wheels.   
 
-* **Executing Scripts**
+6. **Executing Scripts**
     ```console
     python main.py
-    ```
+    ```  
 
     This line runs the Python file `main.py`, which is in the working directory when the job starts. The script, [`main.py`](https://github.com/kwade4/RAISE-DRI/blob/main/workshop_examples/mnist/mnist/main.py), trains a  neural network to recognize handwritten digits using the MNIST dataset. 
 
-
-* #SBATCH directives define job requirements (account, name, resources).
-* module load loads necessary software modules.
-* $SLURM_TMPDIR is a temporary directory on the compute node that provides fast, local storage for jobs.
-* Using virtualenv on $SLURM_TMPDIR avoids unnecessary writes to your HOME directory and speeds up execution.
-* pip install --no-index ensures package installations use pre-built, optimized cluster wheels, making installation much faster.
 
 ## Submitting Jobs 
 * Submit a job using `sbatch`:
@@ -153,9 +150,9 @@ python main.py
     * `TIME_LEFT`: is the amount of time remaining before the job reaches its allocated time (`--time`). 
     * `NODES`: is the number of `compute nodes` requested in the job script. 
     *  `CPUS`: is the number of CPU cores requested in the job script. 
-    * `TRES_PER_N`: is the allocated **trackable resources (TRES) per node**, such as GPUs or memory. 
+    * `TRES_PER_N`: is the allocated trackable resources (TRES) per node, such as GPUs or memory. 
     * `MIN_MEM`: the minimum amount of memory requested per node. 
-    * `NODELIST (REASON)`: the compute nodes assigned to the job, or if the job is pending, the reason why (e.g., waiting for resources, priority, dependency). 
+    * `NODELIST (REASON)`: the compute nodes assigned to the job, or if the job is pending, the reason why (e.g., waiting for resources, priority, dependency).   
 
 * View job logs (once completed) using: 
     ```console
@@ -215,7 +212,14 @@ Choosing the right amount of CPU, memory, and runtime for your jobs can involve 
 📊 **Monitor & Adjust Resource Usage**
 * Check job usage with `seff <job_id>` or the **user portal** to see if your job underutilized or exceeded requested resources.
 
+📧 **Set Up Email Notifications**
+* You can receive email notifciations about the status of your job. 
+* Add these lines to your job script to receive notifications when your job starts, ends, or if it fails: 
 
+    ```console
+    #SBATCH --mail-user=<user@email.com>  
+    #SBATCH --mail-type=ALL                
+    ```
 
 
 
