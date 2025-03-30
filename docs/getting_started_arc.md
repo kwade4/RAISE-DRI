@@ -216,19 +216,19 @@ source $HOME/ENV/bin/activate
 
 ### Pre-installed Packages 
 ARC clusters come with a variety of pre-built Python wheels that are optimized for the cluster’s architecture, allowing for fast and efficient installations. These include popular libraries commonly used in scientific computing, machine learning, and bioinformatics. Some of the pre-installed packages include:
-* PyTorch 
-* Biopython
-* Scikit-learn (sklearn)
-* Many more! 
+  * PyTorch 
+  * Biopython
+  * Scikit-learn (sklearn)
+  * Many more! 
 
-For convenience, the `SciPy` stack is available as a module: 
-* NumPy
-* SciPy
-* Matplotlib
-* IPython 
-* pandas
-* Sympy 
-* nose 
+For convenience, the `SciPy` stack is available as a module:
+  * NumPy
+  * SciPy
+  * Matplotlib
+  * IPython 
+  * pandas
+  * Sympy 
+  * nose
 
 To load the `SciPy` stack, use: 
 ```console
