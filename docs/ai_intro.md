@@ -29,13 +29,13 @@ AI is data-driven and the way this data is organized and its type influences how
 ### Structured vs Unstructured Data 
 **Structured data** is data that is organized in a clear, predefined format or schema, usually in rows and columns. It is commonly stored in tables, spreadsheets, or relational databases. Structured data is often easy to analyze and process due to its well-defined structure.
 
-**Examples of Structured Data**: 
+Examples of Structured Data: 
 * A customer database with fields for name, age, and address.
 * A table of sales transactions with columns for product, price, and quantity.
 
 **Unstructured Data** lacks a predefined format and is often more complex to process. It can consist of text, images, audio, video, or other forms of data without a fixed organization. Handling unstructured data typically requires advanced AI techniques like Natural Language Processing (NLP) for text or Computer Vision for images.
 
-**Examples of Unstructured Data**:
+Examples of Unstructured Data:
 * Social media posts, emails, and free-text documents.  
 * Video files or audio recordings.  
 * Images, photographs, and diagrams.  
@@ -43,14 +43,14 @@ AI is data-driven and the way this data is organized and its type influences how
 ### Labelled vs Unlabelled Data 
 **Labelled data** is data that has been annotated with the correct answer or classification for each data point. This is commonly used in **supervised learning**, where a model is trained using the labelled data to learn the relationship between the inputs and the desired outputs. Often, labels are provided by humans or derived from predefined rules.
 
-**Examples of Labelled Data**:
+Examples of Labelled Data:
 * A dataset of emails labelled as "spam" or "not spam".
 * A set of medical images annotated with the type of disease or condition they depict.
 * A collection of product reviews labelled as "one-star", "two-star", "three-star", "four-star", or "five-star".
 
 **Unlabelled data** does not come with predefined labels or outcomes. This data is used in **unsupervised learning**, where the goal is to find hidden patterns, groupings, or structures within the data without relying on labeled outputs. While it can be more challenging to work with, unlabelled data is abundant and easy to collect. 
 
-**Examples of Unlabeled Data**:
+Examples of Unlabeled Data:
 * A set of images without labels indicating what they contain.
 * A series of audio recordings without any information about the content (e.g., a conversation, music, or noise).
 * Raw logs of website user interactions, including clicks, scrolls, time spent on pages, and navigation paths, without any labels for intent (e.g., browsing vs. purchasing).
@@ -63,17 +63,16 @@ There are 2 main types of supervised learning tasks: classification and regressi
 ### Classification
 In classification problems, the goal is to predict a category or class for a given input. The output is a discrete label (e.g., "hot" vs "cold", "low" vs "medium" vs "high"). 
 
-**Examples**:
+Examples of Classification Tasks:
 * Email spam detection, where the model predicts whether an email is "spam" or "not spam."
 * Diagnosing diseases based on patient data, such as predicting whether a tumor is malignant or benign
 
 ### Regression
 Regression is used when the output is a continuous value. The goal is to predict a continuous numeric value (e.g., a temperature or a price).
 
-**Examples**:
+Examples of Regression Tasks:
 * Predicting house prices based on features like square footage, location, and number of bedrooms.
 * Forecasting sales figures based on historical data and economic indicators.  
-
 
 
 <div style="background-color: #eaf3ea; border-left: 5px solid #8FBC8F; padding: 10px; color: black;"> 💡 A <strong>regression</strong> task involves predicting a continuous value, such as the temperature, while a <strong>classification</strong> task involves predicting a category, like whether the day will be "hot" or "cold". </div>  
@@ -91,14 +90,14 @@ The two main types of unsupervised learning tasks are clustering and dimensional
 ### Clustering  
 Clustering involves grouping data points into clusters or groups based on similarities between them. The model finds natural groupings in the data without prior knowledge of what those groups might be.
 
-**Examples**: 
+Examples of Clustering Tasks: 
 * Customer segmentation, where businesses group customers based on purchasing behavior to target different market segment. 
 *  Identifying groups of similar images in a large collection, such as organizing photos by content (e.g., landscapes, portraits, or cityscapes).
 
 ### Dimensionality Reduction
 Dimensionality reduction aims to reduce the number of input features while preserving the essential information. This can help visualize high-dimensional data and improve model performance by eliminating irrelevant features. 
 
-**Examples**:
+Examples of Dimensionality Reduction Tasks:
 * Reducing the number of variables in gene expression datasets. 
 * Compressing a large set of images to fewer features for easier storage or processing in image recognition tasks. 
 
