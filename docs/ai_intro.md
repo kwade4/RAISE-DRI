@@ -5,7 +5,6 @@ parent: Data Science and AI
 nav_order: 5
 ---
 # Introduction to Artificial Intelligence and Machine Learrning 
-
 {: .no_toc }
 
 1. TOC
