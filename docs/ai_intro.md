@@ -56,20 +56,25 @@ AI is data-driven and the way this data is organized and its type influences how
 * Raw logs of website user interactions, including clicks, scrolls, time spent on pages, and navigation paths, without any labels for intent (e.g., browsing vs. purchasing).
 
 ## Supervised Learning 
-In **supervised learning**, the algorithm is trained on labeled data, meaning the input data comes with the correct output or label. The goal is to learn a mapping from input to output so that the model can make predictions on new, unseen data.
+In **supervised learning**, the algorithm is trained on labeled data, meaning the input data comes with the correct output or label. The goal is to learn a mapping from input to output so that the model can make predictions on new, unseen data. 
 
-### Common Problem Types in Supervised Learning 
-**Classification**: In classification problems, the goal is to predict a category or class for a given input. The output is a discrete label (e.g., "hot" vs "cold", "low" vs "medium" vs "high"). 
+There are 2 main types of supervised learning tasks: classification and regression. 
+
+### Classification
+In classification problems, the goal is to predict a category or class for a given input. The output is a discrete label (e.g., "hot" vs "cold", "low" vs "medium" vs "high"). 
 
 **Examples**:
 * Email spam detection, where the model predicts whether an email is "spam" or "not spam."
 * Diagnosing diseases based on patient data, such as predicting whether a tumor is malignant or benign
 
-**Regression**:  Regression is used when the output is a continuous value. The goal is to predict a continuous numeric value (e.g., a temperature or a price).
+### Regression
+Regression is used when the output is a continuous value. The goal is to predict a continuous numeric value (e.g., a temperature or a price).
 
 **Examples**:
 * Predicting house prices based on features like square footage, location, and number of bedrooms.
 * Forecasting sales figures based on historical data and economic indicators.  
+
+
 
 <div style="background-color: #eaf3ea; border-left: 5px solid #8FBC8F; padding: 10px; color: black;"> 💡 A <strong>regression</strong> task involves predicting a continuous value, such as the temperature, while a <strong>classification</strong> task involves predicting a category, like whether the day will be "hot" or "cold". </div>  
 
@@ -81,15 +86,17 @@ In **supervised learning**, the algorithm is trained on labeled data, meaning th
 ## Unsupervised Learning 
 Unsupervised learning, on the other hand, works with **unlabeled data**, meaning there are no explicit target values or labels provided. The model tries to find patterns and structures in the data without any predefined outputs. The goal is to uncover hidden relationships, groupings, or structures in the data.
 
-### Common Problem Types in Unsupervised Learning 
+The two main types of unsupervised learning tasks are clustering and dimensionality reduction. 
 
-**Clustering**: Clustering involves grouping data points into clusters or groups based on similarities between them. The model finds natural groupings in the data without prior knowledge of what those groups might be.
+### Clustering  
+Clustering involves grouping data points into clusters or groups based on similarities between them. The model finds natural groupings in the data without prior knowledge of what those groups might be.
 
 **Examples**: 
 * Customer segmentation, where businesses group customers based on purchasing behavior to target different market segment. 
 *  Identifying groups of similar images in a large collection, such as organizing photos by content (e.g., landscapes, portraits, or cityscapes).
 
-**Dimensionality Reduction**: Dimensionality reduction aims to reduce the number of input features while preserving the essential information. This can help visualize high-dimensional data and improve model performance by eliminating irrelevant features. 
+### Dimensionality Reduction
+Dimensionality reduction aims to reduce the number of input features while preserving the essential information. This can help visualize high-dimensional data and improve model performance by eliminating irrelevant features. 
 
 **Examples**:
 * Reducing the number of variables in gene expression datasets. 
@@ -111,7 +118,7 @@ Once the problem is defined, the next step is to collect relevant data. This dat
     * **Removing or Correcting Invalid Entries**: Identifying and removing or correcting incorrect, duplicate, or irrelevant data entries that could interfere with the model’s learning process.
     * **Handling Missing Data**: Missing values in data can affect model performance, so it’s important to decide how to handle them (e.g., impute missing values, drop rows/columns, or use machine learning models to predict missing data).
 
-* **Data Exploration**:    Before cleaning, it’s important to explore the data to understand its structure and characteristics.   
+* **Data Exploration**: Before cleaning, it’s important to explore the data to understand its structure and characteristics.   
     * **Basic Statistics**: Calculating measures like mean, median, standard deviation, etc., to summarize the dataset and identify any outliers or inconsistencies.  
     * **Grouping / Filtering**: Grouping data by categories or filtering for specific subsets of interest to focus on the most relevant aspects of the data.
     * **Visualizations**: Creating plots (e.g., histograms, scatter plots, box plots) to visually inspect distributions, relationships between features, and potential patterns.
