@@ -85,7 +85,8 @@ python main.py
     ```
     * `module load`: Loads the necessary software for the job. 
     * `python/3.10` loads Python 3.10 
-    * `cuda` and `cudnn` load GPU acceleration libraries for deep learning.   
+    * `cuda` and `cudnn` load GPU acceleration libraries for deep learning.    
+
 
 4. **Creating a Virtual Environment** 
     ```console 
@@ -101,7 +102,8 @@ python main.py
     tar -xf data.tar.gz -C $SLURM_TMPDIR/
     ```
 
-    This command extracts files from the archive `data.tar.gz` to the `$SLURM_TMPDIR`.     
+    This command extracts files from the archive `data.tar.gz` to the `$SLURM_TMPDIR`.   
+
 
 5. **Installing Packages**
     ```console
@@ -111,7 +113,8 @@ python main.py
 
     These lines ensure package installations used pre-built wheels that are optimized for the ARC clusters. 
     * `pip install --no-index --upgrade pip`: Upgrades `pip` without accessing external repositories. 
-    *  `pip install --no-index tensorflow`: Installs Tensorflow using pre- built cluster wheels.   
+    *  `pip install --no-index tensorflow`: Installs Tensorflow using pre- built cluster wheels.  
+
 
 6. **Executing Scripts**
     ```console
