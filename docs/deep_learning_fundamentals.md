@@ -39,22 +39,22 @@ Mathematically, gradient descent updates the model’s parameters using the form
 $$\theta_{t+1} = \theta_t - \alpha \nabla L(\theta_t)$$
 
 
-* $\theta_{t}$: Model parameters at timestep $t$
+* $$\theta_{t}$$: Model parameters at timestep $$t$$
     * Represents the current vales of the model's parameters. 
     * The goal is to update these parameters to minimize prediction errors. 
-* $\alpha$: Learning rate
+* $$\alpha$$: Learning rate
     * A small positive number that controls how big of a step the model takes in each iteration.
-    * If $\alpha$ is too large, the model may take steps that are too big and may miss the optimal solution. 
-    * If $\alpha$ is too small, the model make take a long time to **converge** (find the optimal solution). 
-* $\nabla L(\theta_t)$: Gradient of the loss function
-    * The gradient $\nabla L(\theta_t)$ is the partial derivative of the loss function $L(\theta)$, with respect to the model's current parameters $\theta_t$. 
+    * If $$\alpha$$ is too large, the model may take steps that are too big and may miss the optimal solution. 
+    * If $$\alpha$$ is too small, the model make take a long time to **converge** (find the optimal solution). 
+* $$\nabla L(\theta_t)$$: Gradient of the loss function
+    * The gradient $$\nabla L(\theta_t)$$ is the partial derivative of the loss function $$L(\theta)$$, with respect to the model's current parameters $$\theta_t$$. 
     * It points in the direction of the steepest increase in error.  
     * Since we want to **minimize** the error, we subtract the gradient to move in the opposite direction.
 
 **🚀 How It Works in Practice**
-1. **Initialize Parameters**: Start with random values for $\theta$. 
+1. **Initialize Parameters**: Start with random values for $$\theta$$. 
 2. **Compute the Gradient**: Calculate how much the loss function changes with respect to each parameter.
-3. **Update the Parameters**: Adjust $\theta$ using the formula above to move toward lower error.
+3. **Update the Parameters**: Adjust $$\theta$$ using the formula above to move toward lower error.
 4. **Repeat**: Continue until the model reaches a minimum loss or stops improving.
 
 This process helps the model learn and make better predictions over time and helps it generalize to unseen data.
@@ -68,9 +68,10 @@ Traditional machine learning models have been the foundation of many data Whethe
 Linear regression is one of the simplest models. It establishes a relationship between a dependent variable (target) and one or more independent variables (features) by fitting a straight line to the data. The goal is to minimize the error between predicted and actual outcomes by finding the best-fitting line that minimizes the sum of squared residuals.
 
 The model can be represented as:
-$$y = \beta_0 + \beta_1 x_1 + \beta_2 x_2 + \dots + \beta_n x_n + \epsilon
-$$
-where $y$ is the target variable, $\beta_i$ are the coefficients, and $\epsilon$ is the error term. 
+
+$$y = \beta_0 + \beta_1 x_1 + \beta_2 x_2 + \dots + \beta_n x_n + \epsilon$$
+
+where $$y$$ is the target variable, $$\beta_i$$ are the coefficients, and $$\epsilon$$ is the error term. 
 
 ### Logistic Regression
 Logistic regression is used for binary classification tasks, where the goal is to predict one of two possible outcomes (e.g., 0 or 1). It applies a logistic function (sigmoid function) to map the output of a linear regression model to probabilities between 0 and 1. It is effective for problems where you want to estimate the probability of a certain class based on input features.
@@ -88,21 +89,21 @@ Random forests are an ensemble learning method that builds multiple decision tre
 GBoost is a gradient boosting method that builds an ensemble of decision trees in a sequential manner, where each tree tries to correct the errors made by the previous tree. It is designed to be highly efficient, scalable, and effective at handling large datasets. XGBoost incorporates regularization to prevent overfitting and can be fine-tuned with hyperparameters.
 
 ### K-Nearest Neighbours (KNN)
-KNN is a simple and intuitive algorithm where the model classifies a data point based on the majority class of its $𝑘$ nearest neighbors in the feature space. The distance between data points is typically calculated using metrics like Euclidean distance. KNN is non-parametric and requires no model training, but it can be computationally expensive for large datasets.
+KNN is a simple and intuitive algorithm where the model classifies a data point based on the majority class of its $$k$$ nearest neighbors in the feature space. The distance between data points is typically calculated using metrics like Euclidean distance. KNN is non-parametric and requires no model training, but it can be computationally expensive for large datasets.
 
 ### Principal Component Analysis (PCA)
 PCA is a technique used for reducing the number of features in a dataset while retaining as much information (variance) as possible. It works by transforming the data into a new set of orthogonal axes (principal components) that capture the most variance in the data. PCA is commonly used for preprocessing before applying other models, especially when dealing with high-dimensional data.
 
-PCA is based on the eigen-decomposition of the covariance matrix $𝐶$ of the data:
+PCA is based on the eigen-decomposition of the covariance matrix $$C$$ of the data:
 
 $$C v_i = \lambda_i v_i$$
 
-where $v_i$ are the eigenvectors (principle components) and $\lambda_i$ are the eigenvalues. 
+where $$v_i$$ are the eigenvectors (principle components) and $$\lambda_i$$ are the eigenvalues. 
 
 ### t-Distributed Stochastic Neighbour Embedding (t-SNE)
 t-SNE is a non-linear dimensionality reduction technique primarily used for visualizing high-dimensional data in two or three dimensions. It minimizes the divergence between probability distributions in the original space and the lower-dimensional space, making it useful for exploring the structure of complex datasets. t-SNE is particularly popular in the visualization of embeddings or clustering results.
 
-t-SNE minimizes the Kullback-Leibler divergence between the original data’s probability distribution $𝑃$ and the low-dimensional distribution $𝑄$: 
+t-SNE minimizes the Kullback-Leibler divergence between the original data’s probability distribution $$P$$ and the low-dimensional distribution $$Q$$: 
 
 $$D_{KL}(P \parallel Q) = \sum_{i,j} P_{ij} \log \frac{P_{ij}}{Q_{ij}}
 $$
