@@ -150,15 +150,15 @@ Common activation functions include:
 * **Tanh (Hyperbolic Tangent)**: Outputs values between -1 and 1, often used for tasks where negative values are necessary.
 * **Softmax**: Used in the output layer for multi-class classification, converting raw model outputs into probability distributions. 
 
-**Batch Size** 
+**Batch Size**  
 The batch size refers to the number of training samples that are passed through the network before the weights are updated. A large batch size means the model gets a more accurate estimate of the gradient, but it requires more memory and computational power. Smaller batch sizes result in faster updates but can lead to more noisy gradients. Choosing the right batch size is important for balancing training speed and model performance.
 
-**Regularization**
+**Regularization**  
 Due to their large number of parameters, deep learning models are prone to overfitting. Regularization techniques can be used to prevent overfitting and help the model generalize to new, unseen data. 
 
 Common techniques include: 
 * **Dropout**: Randomly "drops" or disables a fraction of neurons during training to prevent over-reliance on specific neurons.
 * **L2 Regularization (Ridge)**: Adds a penalty for large weights to the loss function, discouraging the model from fitting the noise in the training data.
-*** Elastic Net Regularization**: A combination of L1 (Lasso) and L2 regularization that provides a balance between feature selection and weight shrinkage. Elastic net regularization encourages sparse models and prevents large coefficients. 
+* **Elastic Net Regularization**: A combination of L1 (Lasso) and L2 regularization that provides a balance between feature selection and weight shrinkage. Elastic net regularization encourages sparse models and prevents large coefficients. 
 
 Interestingly, regularization is also used in traditional machine learning models to prevent overfitting. L1 and L2 regularization are often used in algorithms like Linear Regression and Logistic Regression. L2 regularization (Ridge) penalizes large coefficients. L1 regularization (Lasso) encourages sparsity by forcing some coefficients to be zero, which results in simpler models that tend to have better generalizability. 
