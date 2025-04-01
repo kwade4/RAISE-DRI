@@ -9,10 +9,7 @@ defaults:
     values:
       layout: "default"
 
-markdown: kramdown
-kramdown:
-  math_engine: mathjax
-
+math: mathjax
 
 # logo: "/assets/images/RAISE-DRI_logo_full.png"
 just_the_docs:
