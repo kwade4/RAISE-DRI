@@ -11,12 +11,12 @@ nav_order: 6
 {:toc}
 
 
-## 🧮 The Mathematics Behind Machine Learning Models 
+## The Mathematics Behind Machine Learning Models 
 Machine learning models may seem like magic, but behind the scenes, they rely on complex mathematical frameworks to learn patterns, make predictions, and and make decisions. At their core, these models are built on a foundation of linear algebra, calculus, probability, and optimization techniques to transform raw data into meaningful predictions. 
 
 ### Mathematics for Data Representation 
 
-### 🎛️ What are Parameters?  
+### What are Parameters?  
 When a machine learning model is trained, it tries to find the best way to make accurate predictions. To do this, it adjusts **parameters** or the internal settings that determine how the model makes its decisions.
 
 Think of parameters as dials on a machine. Just like adjusting the temperature on an oven to bake a perfect cake, a model tweaks its parameters to improve its predictions. 
@@ -38,9 +38,7 @@ Gradient descent is an optimization algorithm used to update a machine learning 
 
 Mathematically, gradient descent updates the model’s parameters using the formula:
 
-$$
-\theta_{t+1} = \theta_t - \alpha \nabla L(\theta_t)
-$$
+$$\theta_{t+1} = \theta_t - \alpha \nabla L(\theta_t)$$
 
 
 * $\theta_{t}$: Model parameters at timestep $t$
@@ -77,19 +75,19 @@ $$
 where $y$ is the target variable, $\beta_i$ are the coefficients, and $\epsilon$ is the error term. 
 
 ### Logistic Regression
- Logistic regression is used for binary classification tasks, where the goal is to predict one of two possible outcomes (e.g., 0 or 1). It applies a logistic function (sigmoid function) to map the output of a linear regression model to probabilities between 0 and 1. It is effective for problems where you want to estimate the probability of a certain class based on input features.
+Logistic regression is used for binary classification tasks, where the goal is to predict one of two possible outcomes (e.g., 0 or 1). It applies a logistic function (sigmoid function) to map the output of a linear regression model to probabilities between 0 and 1. It is effective for problems where you want to estimate the probability of a certain class based on input features.
 
- ### Support Vector Machines (SVMs)
- SVMs are powerful classifiers that find the optimal hyperplane that separates data points of different classes. The model maximizes the margin, which is the distance between the hyperplane and the closest data points (support vectors). SVMs can handle both linear and non-linear decision boundaries by using kernel functions to map the data into higher dimensions where a linear separation is possible.
+### Support Vector Machines (SVMs)
+SVMs are powerful classifiers that find the optimal hyperplane that separates data points of different classes. The model maximizes the margin, which is the distance between the hyperplane and the closest data points (support vectors). SVMs can handle both linear and non-linear decision boundaries by using kernel functions to map the data into higher dimensions where a linear separation is possible.
 
- ### Decision Trees 
-  decision tree is a flowchart-like structure where each internal node represents a decision based on a feature, and each leaf node represents a predicted output value. The tree recursively splits the data based on the best feature that reduces a certain measure of impurity (e.g., Gini index or entropy for classification). Decision trees are simple and interpretable but can suffer from overfitting if they are too deep.
+### Decision Trees 
+A decision tree is a flowchart-like structure where each internal node represents a decision based on a feature, and each leaf node represents a predicted output value. The tree recursively splits the data based on the best feature that reduces a certain measure of impurity (e.g., Gini index or entropy for classification). Decision trees are simple and interpretable but can suffer from overfitting if they are too deep.
 
-  ### Random Forests 
-  Random forests are an ensemble learning method that builds multiple decision trees and aggregates their predictions. Each tree is trained on a random subset of the data, and the final prediction is made by averaging (for regression) or voting (for classification) across all trees. This reduces the risk of overfitting compared to a single decision tree.
+### Random Forests 
+Random forests are an ensemble learning method that builds multiple decision trees and aggregates their predictions. Each tree is trained on a random subset of the data, and the final prediction is made by averaging (for regression) or voting (for classification) across all trees. This reduces the risk of overfitting compared to a single decision tree.
 
-  ### XGBoost (Extreme Gradient Boosting)
-  GBoost is a gradient boosting method that builds an ensemble of decision trees in a sequential manner, where each tree tries to correct the errors made by the previous tree. It is designed to be highly efficient, scalable, and effective at handling large datasets. XGBoost incorporates regularization to prevent overfitting and can be fine-tuned with hyperparameters.
+### XGBoost (Extreme Gradient Boosting)
+GBoost is a gradient boosting method that builds an ensemble of decision trees in a sequential manner, where each tree tries to correct the errors made by the previous tree. It is designed to be highly efficient, scalable, and effective at handling large datasets. XGBoost incorporates regularization to prevent overfitting and can be fine-tuned with hyperparameters.
 
 ### K-Nearest Neighbours (KNN)
 KNN is a simple and intuitive algorithm where the model classifies a data point based on the majority class of its $𝑘$ nearest neighbors in the feature space. The distance between data points is typically calculated using metrics like Euclidean distance. KNN is non-parametric and requires no model training, but it can be computationally expensive for large datasets.
