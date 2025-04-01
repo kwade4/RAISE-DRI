@@ -128,7 +128,7 @@ Machine learning datasets are typically divided into:
 **🔄 Train the Model**  
 During training, the model learns patterns from the training data, and adjusts its internal parameters to minimize errors. The model makes predictions, compares them to actual values, and then adjusts based on the feedback it receives. This step may take time, depending on the size of the dataset and the complexity of the model.  
 
-* **🗝️ Core spects of Training a Model**
+* **🗝️ Core Aspects of Training a Model**
     * The model learns from training data to recognize patterns.
     * It adjusts its parameters using optimization techniques like gradient descent.
     * Training continues until the model reaches an acceptable level of accuracy.

@@ -24,8 +24,6 @@ Think of parameters as dials on a machine. Just like adjusting the temperature o
 Examples of parameters include:
 * **Weights**: numbers that determine how much importance the model gives to different inputs.
 * **Bias**: value that helps adjust predictions to be more accurate.
-* **Epochs**: 
-* **Learning Rate**: 
 
 ### What Is Gradient Descent?
 **Gradient descent** is the process a machine learning model uses to improve itself by adjusting its internal settings (parameters) to reduce errors. Gradient descent is an optimization algorithm that helps the model learn patterns in data by minimizing a function called the **loss function**, which measures how far the model's predictions are from the actual values.
