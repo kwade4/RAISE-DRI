@@ -39,7 +39,7 @@ By the end of this case study, you will have a foundational understanding of how
 
 🔗 [View Notebook using NBViewer](https://nbviewer.org/github/kwade4/RAISE-DRI/blob/main/workshop_examples/canada-temperatures/canada_temperatures.ipynb)
 
-<iframe src="https://nbviewer.org/github/kwade4/RAISE-DRI/blob/main/workshop_examples/canada-temperatures/canada_temperatures.ipynb" width="100%" height="1000px"></iframe>
+<iframe src="https://nbviewer.org/github/kwade4/RAISE-DRI/blob/main/workshop_examples/canada-temperatures/canada_temperatures.ipynb" width="150%" height="1000px"></iframe>
 
 ## Questions to Consider
 * How would other machine learning models perform? Support Vector Machine do?

@@ -26,7 +26,7 @@ In this case study, we train a **convolutional neural network** (CNN) on MNIST t
     
     Run the following command to transfer the files:
 
-    ```console: 
+    ```console 
     scp -r mnist USER@whichCLUSTER.alliancecan.ca:~/scratch
     ```  
     * Replace  `USER` with your username. 

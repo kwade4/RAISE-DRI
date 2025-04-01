@@ -31,7 +31,7 @@ In this case study, we train a **convolutional neural network** (CNN) on MNIST t
 
 🔗 [View Notebook using NBViewer](https://nbviewer.org/github/kwade4/RAISE-DRI/blob/main/workshop_examples/mnist/mnist_classification.ipynb)
 
-<iframe src="https://nbviewer.org/github/kwade4/RAISE-DRI/blob/main/workshop_examples/mnist/mnist_classification.ipynb" width="100%" height="750px"></iframe>
+<iframe src="https://nbviewer.org/github/kwade4/RAISE-DRI/blob/main/workshop_examples/mnist/mnist_classification.ipynb" width="150%" height="750px"></iframe>
 
 ## Questions to Consider 
 * What happens when you change the `learning_rate`?
