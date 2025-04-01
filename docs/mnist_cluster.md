@@ -5,7 +5,7 @@ parent: Case Studies
 nav_order: 8
 ---
 
-# Using HPC and AI to Classifying Handwritten Digits 
+# Using HPC and AI to Classify Handwritten Digits 
 
 This case study explores the **MNIST dataset**, a benchmark dataset in machine learning and computer vision. MNIST consists of 70,000 grayscale images of handwritten digits (0-9), with 60,000 training examples and 10,000 test examples, each stored as a 28×28 pixel image. Originally introduced by Yann LeCun, Corinna Cortes, and Christopher Burges in the 1990s, MNIST has played a foundational role in the development of neural networks and pattern recognition.
 
@@ -25,9 +25,10 @@ In this case study, we train a **convolutional neural network** (CNN) on MNIST t
     On your computer, navigate to the mnist folder and open a terminal.
     
     Run the following command to transfer the files:
+
     ```console: 
     scp -r mnist USER@whichCLUSTER.alliancecan.ca:~/scratch
-    ```
+    ```  
     * Replace  `USER` with your username. 
     * Replace `whichCLUSTER` with the name of one of the ARC clusters. 
 
@@ -84,7 +85,6 @@ In this case study, we train a **convolutional neural network** (CNN) on MNIST t
 
 ## Next Steps:
 * Try using [Globus](https://docs.alliancecan.ca/wiki/Globus), to transfer your files instead. 
-    
 * Explore different [neural network architectures](https://pytorch.org/tutorials/beginner/basics/buildmodel_tutorial.html) 
 * Explore more advanced AI and Big Data libraries such as
     * [Dask](https://docs.dask.org/en/stable/10-minutes-to-dask.html)

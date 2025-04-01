@@ -5,7 +5,7 @@ parent: Case Studies
 nav_order: 9
 ---
 
-# Using Google Colab and AI to Classifying Handwritten Digits 
+# Using Google Colab and AI to Classify Handwritten Digits 
 
 This case study explores the **MNIST dataset**, a benchmark dataset in machine learning and computer vision. MNIST consists of 70,000 grayscale images of handwritten digits (0-9), with 60,000 training examples and 10,000 test examples, each stored as a 28×28 pixel image. Originally introduced by Yann LeCun, Corinna Cortes, and Christopher Burges in the 1990s, MNIST has played a foundational role in the development of neural networks and pattern recognition.
 
@@ -33,12 +33,20 @@ In this case study, we train a **convolutional neural network** (CNN) on MNIST t
 
 <iframe src="https://nbviewer.org/github/kwade4/RAISE-DRI/blob/main/workshop_examples/mnist/mnist_classification.ipynb" width="100%" height="750px"></iframe>
 
+## Questions to Consider 
+* What happens when you change the `learning_rate`?
+* What happens when you change the `batch` size?
+* What happens when you change the number of `epochs`?
+* What happens if you add an extra hidden layer?
+* What happens if you remove a hidden layer?
+* Challenge: try to out other neural network architectures!
+
 
 ## Comparing Google Colab and the Alliance’s HPC Resources
 
 When working with deep learning and large-scale computations, selecting the right computing platform is crucial. This section compares Google Colab with the Digital Research Alliance of Canada’s high-performance computing (HPC) resources, highlighting their strengths and limitations.
 
-| Feature               | Google Colab | the Alliance's HPC Resources |
+| Feature               | Google Colab | The Alliance's HPC Resources |
 |-----------------------|-------------|------------------------|
 | **Ease of Access**    | Accessible via a browser, no setup required | Requires SSH access and job scheduling (e.g., Slurm) |
 | **Hardware Availability** | Provides free GPUs (e.g., Tesla T4, K80, or P100, depending on availability) | Access to high-performance GPUs (A100, V100) and large CPU clusters |
