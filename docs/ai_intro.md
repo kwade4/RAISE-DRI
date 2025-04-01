@@ -21,40 +21,6 @@ nav_order: 5
 ![ai-ml-dl](assets/images/AI-ML-DL.png)
 
 
-
-## Types of Data Used in AI
-AI is data-driven and the way this data is organized and its type influences how AI models are developed and used. Understanding the differences between these data types is cruical for selecting the appropriate AI and machine learning methods.
-
-
-### Structured vs Unstructured Data 
-**Structured data** is data that is organized in a clear, predefined format or schema, usually in rows and columns. It is commonly stored in tables, spreadsheets, or relational databases. Structured data is often easy to analyze and process due to its well-defined structure.
-
-Examples of Structured Data: 
-* A customer database with fields for name, age, and address.
-* A table of sales transactions with columns for product, price, and quantity.
-
-**Unstructured Data** lacks a predefined format and is often more complex to process. It can consist of text, images, audio, video, or other forms of data without a fixed organization. Handling unstructured data typically requires advanced AI techniques like Natural Language Processing (NLP) for text or Computer Vision for images.
-
-Examples of Unstructured Data:
-* Social media posts, emails, and free-text documents.  
-* Video files or audio recordings.  
-* Images, photographs, and diagrams.  
-
-### Labelled vs Unlabelled Data 
-**Labelled data** is data that has been annotated with the correct answer or classification for each data point. This is commonly used in **supervised learning**, where a model is trained using the labelled data to learn the relationship between the inputs and the desired outputs. Often, labels are provided by humans or derived from predefined rules.
-
-Examples of Labelled Data:
-* A dataset of emails labelled as "spam" or "not spam".
-* A set of medical images annotated with the type of disease or condition they depict.
-* A collection of product reviews labelled as "one-star", "two-star", "three-star", "four-star", or "five-star".
-
-**Unlabelled data** does not come with predefined labels or outcomes. This data is used in **unsupervised learning**, where the goal is to find hidden patterns, groupings, or structures within the data without relying on labeled outputs. While it can be more challenging to work with, unlabelled data is abundant and easy to collect. 
-
-Examples of Unlabeled Data:
-* A set of images without labels indicating what they contain.
-* A series of audio recordings without any information about the content (e.g., a conversation, music, or noise).
-* Raw logs of website user interactions, including clicks, scrolls, time spent on pages, and navigation paths, without any labels for intent (e.g., browsing vs. purchasing).
-
 ## Supervised Learning 
 In **supervised learning**, the algorithm is trained on labeled data, meaning the input data comes with the correct output or label. The goal is to learn a mapping from input to output so that the model can make predictions on new, unseen data. 
 
@@ -106,7 +72,7 @@ Examples of Dimensionality Reduction Tasks:
 ✅ The model identifies patterns, structures, or groupings in the data.  
 ✅ Commonly used for exploratory data analysis, data preprocessing, or feature extraction.
 
-## How We Approach Machine Learning Problems 
+## How To Approach Machine Learning Problems 
 **🧩 Define the Problem**  
 The first step is to clearly define the problem you want the machine learning model to solve. Understanding the task is critical, whether you're looking to predict a continuous value, classify data into categories, or identify patterns.  
 
@@ -128,17 +94,89 @@ Once the problem is defined, the next step is to collect relevant data. This dat
     * **Correcting for Imbalance**: If certain classes or categories are underrepresented in the data, balancing the dataset (e.g., oversampling underrepresented classes or undersampling overrepresented ones) can improve model fairness and performance.
 
 **🤖 Choose a Model**  
-After preparing the data, you need to select the right machine learning model for your problem. The choice of model depends on the problem type (e.g., regression, classification, clustering). For example, if you are predicting a continuous outcome, you might use linear regression, while if you are classifying images, a convolutional neural network (CNN) could be appropriate. It’s important to consider factors such as the complexity of the model and how interpretable it needs to be.
+After preparing the data, you need to select the right machine learning model for your problem. The choice of model depends on the type of problem: 
+* **Regression problems** (predicting continuous values) → Linear regression, decision trees, or neural networks.
+* **Classification problems** (categorizing data) → Logistic regression, support vector machines, or convolutional neural networks (CNNs) for image classification.
+* **Clustering problems** (grouping similar data points) → K-means clustering or hierarchical clustering.
+
+When choosing a model, consider:  
+✔️ **Complexity**: More complex models can capture intricate patterns but may have a higher change of overfitting. While simpler models may underfit the data.  
+✔️ **Interpretability**: Simple models like linear regression are easier to understand, while deep learning models can be more opaque.  
+✔️ **Computational Resources**: Some models (e.g., deep learning) require significant compute power.
+
+<div style="background-color: #eaf3ea; border-left: 5px solid #8FBC8F; padding: 10px; color: black;"> 💡 <strong>Tip</strong>: It is often a good idea to try simpler models first because they are often faster to train and may have good performance depending on your problem.</div>   
+
 
 **✂️ Split the Data into Train and Test Sets**  
-To evaluate your model's performance, it is essential to split the data into at least two parts: a training set and a test set. The training set is used to teach the model, while the test set is used to evaluate how well the model generalizes to new, unseen data. A common split is 80% for training and 20% for testing, though variations like 70/30 or 90/10 are also used.
+To ensure your model performs well on new, unseen data, it’s important to split your dataset properly. This helps prevent overfitting and ensures the model makes reliable predictions.
+
+Machine learning datasets are typically divided into:
+* 🏋️‍♂️ **Training Set** 
+    * The model learns patterns and relationships from this data.
+    * Helps the model adjust its parameters for better performance. 
+    * Often 70-80% of the data.
+* **🧪 Testing Set**
+    * Evaluates how well the model performs on unseen data.  
+    * Helps detect overfitting — when a model "memorizes" training data instead of learning general patterns.
+    * Often 20-30% of the data. 
+* **⚖️ Validation Set (Optional)**
+    * Used for fine-tuning the model before testing.  
+    * Helps optimize hyperparameters for better generalization.  
+    * Common splits include 80-10-10 (train-validation-test) or 70-15-15.
+
 
 **🔄 Train the Model**  
-In this step, the model is trained on the training data. During training, the model learns patterns from the data, adjusting its internal parameters to minimize errors. The model makes predictions, compares them to actual values, and then adjusts based on the feedback it receives. This step may take time, depending on the size of the dataset and the complexity of the model.
+During training, the model learns patterns from the training data, and adjusts its internal parameters to minimize errors. The model makes predictions, compares them to actual values, and then adjusts based on the feedback it receives. This step may take time, depending on the size of the dataset and the complexity of the model.  
+
+* **🗝️ Core spects of Training a Model**
+    * The model learns from training data to recognize patterns.
+    * It adjusts its parameters using optimization techniques like gradient descent.
+    * Training continues until the model reaches an acceptable level of accuracy.
+* **🧰 Python Tools & Libraries**
+    * `scikit-learn`: for traditional machine learning models.
+    * `TensorFlow`: used for deep learning and neural networks. 
+    * `PyTorch`: flexible and well-suited for deep learning. 
 
 **🛠️ Fine-Tune the Model** 
-Once the initial model is trained, fine-tuning is necessary to improve its performance. This involves adjusting hyperparameters (e.g., learning rate, number of layers in a neural network) to optimize the model. Techniques such as grid search or random search can help find the best hyperparameters. Cross-validation is also used to ensure that the model is not overfitting and can generalize well to new data. 
+Once the initial model is trained, fine-tuning is necessary to improve its performance. Fine-tuning involves adjusting  hyperparameters (settings that are set before the model starts learning). These hyperparameters, such as the learning rate, the number of layers in a neural network, and the batch size, affect how well the model learns. During fine-tuning, it is also important to evaluate the model's performance on subsets of the data to avoid overfitting.  
+* ⚙️**Hyperparameter Optimization**
+    * **Grid Search** involves testing all possible combinations of hyperparameters from a predefined grid to find the best combination. 
+    * Rather than testing every possible combination, **random search** involves randomly searching a subset of combinations.    
+* 📊 **Cross-validation** 
+    * **K-Fold Cross-Validation**: Split the data into $K$ subsets. The model is trained on $K-1$ subsets and tested on the remaining subset. This process repeats $K$ times with each subset being used as the test set once.
+    * **Leave-One-Out Cross-Validation**: For each data point, use all other points for training and test on the single point. This is especially useful when the dataset is small.
+    * **Stratified Cross-Validation**: Ensures each fold has a proportional distribution of classes, useful for imbalanced datasets.
+
 
 **📈 Evalute Model Performance**  
-After training and fine-tuning, the next step is to evaluate how well the model performs. This is done by using evaluation metrics that depend on the problem type. For classification tasks, metrics like accuracy, precision, recall, and F1-score are used. For regression, metrics such as Root Mean Squared Error (RMSE) or Mean Absolute Error (MAE) are common. Comparing these metrics with baseline models helps assess the model's effectiveness.
+After training and fine-tuning, the next step is to evaluate how accurately and reliably the model performs. This is done by using evaluation metrics that depend on the problem type. For classification tasks, metrics like accuracy, precision, recall, and F1-score are used. For regression, metrics such as Root Mean Squared Error (RMSE) or Mean Absolute Error (MAE) are common. 
 
+## Evaluation Metrics 
+When evaluating a machine learning model, it's important to select the right metric based on the problem at hand. Classification, regression, and clustering tasks each require different metrics to assess performance. The chosen metric should align with the project’s goals, whether that’s minimizing errors, maximizing classification accuracy, or optimizing clustering results.
+
+### Metrics for Classification Tasks 
+* The **confusion matrix** is a table that provides a detailed breakdown of a classification model’s predictions. It shows how many instances were correctly or incorrectly classified into each class. It contains the following elements:
+    * **True Positives (TP)**: The number of positive instances correctly predicted as positive.
+    * **True Negatives (TN)**: The number of negative instances correctly predicted as negative.
+    * **False Positives (FP)**: The number of negative instances incorrectly predicted as positive.
+    * **False Negatives (FN)**: The number of positive instances incorrectly predicted as negative.  
+* **Accuracy**: Measures how often the model correctly predicts the class. It is the ratio of correctly predicted instances to the total instances.
+* **Precision**: The proportion of true positive predictions out of all the positive predictions made by the model. It is a measure for how well the model avoids false positives.  
+* **Recall (Sensitivity)**: The proportion of true positive predictions out of all the actual positives. It measures how well the model identifies all relevant instances.  
+* **F1 Score**: The harmonic mean of precision and recall, providing a balance between the two. It is especially useful when you want a balance between precision and recall.  
+* **AUC-ROC Curve**: The Area Under the Curve of the Receiver Operating Characteristics curve shows the model’s ability to discriminate between classes. 
+* **AUPRC**: The Area Under the Precision-Recall Curve measures the model’s ability to correctly classify positive instances and is especially useful for imbalanced datasets.
+
+
+### Metrics for Regression Tasks 
+* **Mean Absolute Error (MAE)**: Measures the average magnitude of errors between predicted values and actual values. It gives an idea of how far off the predictions are, without considering the direction of errors.
+* **Mean Squared Error (MSE)**: Measures the average squared difference between predicted and actual values. It penalizes larger errors more than smaller ones, giving a greater weight to large deviations.
+* **Root Mean Squared Error (RMSE)**: The square root of MSE, which provides an error metric in the same unit as the predicted values, making it more interpretable.
+
+### Metrics for Clustering Tasks 
+* **Silhouette Score**: Measures how similar each data point is to its own cluster compared to other clusters. A higher score indicates better-defined clusters.
+* **Davies-Bouldin Index**: Calculates the average similarity between each cluster and the one that is most similar to it. Lower values indicate better clustering results.
+* **Adjusted Rand Index (ARI)**: Compares the clustering to a ground truth, accounting for chance groupings.
+
+## Bias-Variance Tradeoff 
+The bias-variance tradeoff is a core concept in machine learning that involves balancing model complexity and performance. **Bias** refers to errors introduced by overly simplistic models that fail to capture the underlying patterns in the data. This  leads to **underfitting**, where the model performs poorly on both training and test data. On the other hand, **variance** refers to errors introduced by overly complex models that are too sensitive to fluctuations or noise in the data. This can result in **overfitting**, where the model performs well on the training data but poorly on unseen test data. The goal is to find the right balance by capturing the true patterns in the data without overreacting to noise.

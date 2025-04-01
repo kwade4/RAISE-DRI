@@ -55,6 +55,38 @@ Predictive data science not only helps in anticipating future events but also al
 
 ![data-sci](assets/images/data-science.png)
 
+## Types of Data Used in AI
+AI is data-driven and the way this data is organized and its type influences how AI models are developed and used. Understanding the differences between these data types is cruical for selecting the appropriate AI and machine learning methods.
+
+### Structured vs Unstructured Data 
+**Structured data** is data that is organized in a clear, predefined format or schema, usually in rows and columns. It is commonly stored in tables, spreadsheets, or relational databases. Structured data is often easy to analyze and process due to its well-defined structure.
+
+Examples of Structured Data: 
+* A customer database with fields for name, age, and address.
+* A table of sales transactions with columns for product, price, and quantity.
+
+**Unstructured Data** lacks a predefined format and is often more complex to process. It can consist of text, images, audio, video, or other forms of data without a fixed organization. Handling unstructured data typically requires advanced AI techniques like Natural Language Processing (NLP) for text or Computer Vision for images.
+
+Examples of Unstructured Data:
+* Social media posts, emails, and free-text documents.  
+* Video files or audio recordings.  
+* Images, photographs, and diagrams.  
+
+### Labelled vs Unlabelled Data 
+**Labelled data** is data that has been annotated with the correct answer or classification for each data point. This is commonly used in **supervised learning**, where a model is trained using the labelled data to learn the relationship between the inputs and the desired outputs. Often, labels are provided by humans or derived from predefined rules.
+
+Examples of Labelled Data:
+* A dataset of emails labelled as "spam" or "not spam".
+* A set of medical images annotated with the type of disease or condition they depict.
+* A collection of product reviews labelled as "one-star", "two-star", "three-star", "four-star", or "five-star".
+
+**Unlabelled data** does not come with predefined labels or outcomes. This data is used in **unsupervised learning**, where the goal is to find hidden patterns, groupings, or structures within the data without relying on labeled outputs. While it can be more challenging to work with, unlabelled data is abundant and easy to collect. 
+
+Examples of Unlabeled Data:
+* A set of images without labels indicating what they contain.
+* A series of audio recordings without any information about the content (e.g., a conversation, music, or noise).
+* Raw logs of website user interactions, including clicks, scrolls, time spent on pages, and navigation paths, without any labels for intent (e.g., browsing vs. purchasing).
+
 
 ## Getting Started with Data Science
 💻 **Learn the Basics of Coding**: Familiarize yourself with programming languages like [Python](https://www.python.org/) or [R](https://www.r-project.org/), which are widely used in data science. Understanding libraries like `pandas`, `numpy`, and `matplotlib` can help with data manipulation and visualization.

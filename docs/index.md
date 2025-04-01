@@ -35,11 +35,6 @@ Learn about the basics of AI, its applications, and how to get started using Pyt
 ### [Fundamentals of Machine Learning & Deep Learning]({% link deep_learning_fundamentals.md %})
 Explore the foundations of machine learning and deep learning, including neural networks. 
 
-### [Deep Learning: Generative AI, LLMs & more]({% link deep_learning_advanced.md %})
-Dive deeper into advanced topics in Deep Leanring, including Generative AI (GenAI), Large Language Models (LLMs), and more.   
-
-### [Strategies for Managing and Analyzing Ultra-High-Dimensional Data]({% link ultra_high_dim.md %})
-Learn about strategies for analyzing large and complex datasets. 
 
 ---
 
