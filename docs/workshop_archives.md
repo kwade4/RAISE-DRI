@@ -6,9 +6,12 @@ nav_order: 6
 
 # Workshops Archives 
 
+
+## Understanding the Peer Review Process: The Role of PREreview and Preprints 
+<iframe src="{{ site.baseurl }}/assets/UnderstandingPeerReview.pdf" width="100%" height="600px"></iframe>
+
 ## Research and AI at Scale - Part 1
 Presented on January 9th and January 10th, 2025
-
 <iframe src="{{ site.baseurl }}/assets/Research_and_AI_at_Scale.pdf" width="100%" height="600px"></iframe>
 
 ## Research and AI at Scale - Part 2 
