@@ -17,7 +17,7 @@ RAISE-DRI would not have been possible without the **181 researchers** from **23
 Finally, we extend our gratitude to the **93 participants** who attended our virtual and in-person workshops. Thanks to your engagement, we reached **108 equity-deserving researchers**, representing 56% of our total audience. Your participation was the heart of RAISE-DRI and was instrumental in helping us build a more inclusive and supportive digital research community.
 
 
-![DRI-EDIA](EDIA_Champians_Badge_English.png)
+![DRI-EDIA](assets/images/EDIA.png)
 
 
 <div data-iframe-width="150" data-iframe-height="270" data-share-badge-id="bfac587f-6217-431f-bbb4-4f1cffdb31bc" data-share-badge-host="https://www.credly.com"></div><script type="text/javascript" async src="//cdn.credly.com/assets/utilities/embed.js"></script>
