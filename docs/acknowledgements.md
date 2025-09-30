@@ -16,10 +16,14 @@ RAISE-DRI would not have been possible without the **181 researchers** from **23
 
 Finally, we extend our gratitude to the **93 participants** who attended our virtual and in-person workshops. Thanks to your engagement, we reached **108 equity-deserving researchers**, representing 56% of our total audience. Your participation was the heart of RAISE-DRI and was instrumental in helping us build a more inclusive and supportive digital research community.
 
-
-<img src="{{ site.baseurl }}/assets/images/EDIA.png" alt="DRI-EDIA Champions badge" width="200">
+<div>
 <div data-iframe-width="150" data-iframe-height="270" data-share-badge-id="bfac587f-6217-431f-bbb4-4f1cffdb31bc" data-share-badge-host="https://www.credly.com"></div><script type="text/javascript" async src="//cdn.credly.com/assets/utilities/embed.js"></script>
+<img src="{{ site.baseurl }}/assets/images/EDIA.png" alt="DRI-EDIA Champions badge" width="200"></div>
+
+<br>
 <iframe src="https://badgr.com/public/assertions/pzLzEQKQSgqaVNnwmfKokA?embedVersion=1&amp;embedWidth=370&amp;embedHeight=167" title="Badge: PREreview Champion 2025" style="width: 370px; height: 167px; border: 0px;"></iframe>
+
+<br>
 <iframe src="https://badgr.com/public/assertions/SjMcATfvQL6y4LtNI0fLxw?embedVersion=1&amp;embedWidth=370&amp;embedHeight=167" title="Badge: PREreview Open Reviewer" style="width: 370px; height: 167px; border: 0px;"></iframe>
  
 
